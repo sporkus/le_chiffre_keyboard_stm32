@@ -5,10 +5,23 @@ on:
     paths:
     - '**.sch'
     - '**.kicad_pcb'
+    - '.github/**.yml' # Trigger on changes to the workflow file
+    - '**.kibot.yml' # Trigger on changes to the KiBot config file used in the workflow
+
   pull_request:
     paths:
-      - '**.sch'
-      - '**.kicad_pcb'
+    - '**.sch'
+    - '**.kicad_pcb'
+    - '.github/**.yml'
+    - '**.kibot.yml'
+
+  # manual triggering
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Workflow run name'
+        required: false
+        default: 'Manual test run'
 
 jobs:
   example:
