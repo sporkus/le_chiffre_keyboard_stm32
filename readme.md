@@ -10,7 +10,5 @@
 * DFU button is placed in the legacy reset button position. Plug in the board or push the reset button while DFU button is held down to enable DFU mode.
 * Reset button is optional.
 
-## Todo
-* Change tantalum cap
 
 
