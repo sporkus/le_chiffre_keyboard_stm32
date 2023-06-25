@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SMCJ6_5CA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-22-15:00:08)
+    (mountForm default
+        (footprintRef "DIONM7959X262N")
+        (spec "System")
+    )
+)

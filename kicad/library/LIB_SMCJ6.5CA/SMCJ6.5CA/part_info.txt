@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=SMCJ6.5CA
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Diodes Moulded Non Polarised
+PinCount=2
+Version=1.1
+Released=2020-05-22 15:00:08
+Downloaded=2023-06-24 06:27:25
+3D=Y

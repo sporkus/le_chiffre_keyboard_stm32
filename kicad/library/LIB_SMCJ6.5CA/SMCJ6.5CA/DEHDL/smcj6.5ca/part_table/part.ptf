@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMCJ6.5CA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "SMCJ6.5CA" (!) = "", "DIONM7959X262N", "Diodes Moulded Non Polarised", "576-SMCJ6.5CA", "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMCJ6.5CA?qs=zHiv0nsVGmqgVklgFl2cVA%3D%3D", "ESD Suppressors / TVS Diodes 1.5kW 6.5V 5% Bi-Directional", "https://www.littelfuse.com/products/tvs-diodes/surface-mount/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smcj_datasheet.pdf.pdf", "2.62 mm"
+END_PART
+
+END.
