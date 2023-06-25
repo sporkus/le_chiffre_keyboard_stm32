@@ -1,0 +1,26 @@
+name: example
+
+on:
+  push:
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v2
+      with:
+        # Required - kibot config file
+        config: output.kibot.yaml
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: output
+        path: output
