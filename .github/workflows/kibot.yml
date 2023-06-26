@@ -33,7 +33,6 @@ jobs:
         # Required - kibot config file
         config: output.kibot.yaml
         dir: 'kibot'
-        schema: 'kicad/*.kicad_sch'
         board: 'kicad/*.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
