@@ -4,4 +4,5 @@
   (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/library/Type-C.pretty")(options "")(descr ""))
   (lib (name "MX_hotswap_alps")(type "KiCad")(uri "${KIPRJMOD}/library/MX_hotswap_alps")(options "")(descr ""))
   (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/library/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "modified_footrprints")(type "KiCad")(uri "${KIPRJMOD}/library/modified_footrpints.pretty")(options "")(descr ""))
 )
