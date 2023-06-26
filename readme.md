@@ -2,7 +2,7 @@
 -----------
 ## Changes - WIP
 * MCU: STM32F072CBT6 (128Kb flash, built-in DFU bootloader, crystal-less)
-* RGB leds changed to SK6812 for voltage tolerance
+* RGB leds changed to SK6812 mini for voltage tolerance
 * Roundeded PCB outline
 * MX hotswap/Alps
 
@@ -10,5 +10,6 @@
 * DFU button is placed in the legacy reset button position. Plug in the board or push the reset button while DFU button is held down to enable DFU mode.
 * Reset button is optional.
 
-
+## Notes
+* SK6812 mini 3535 has placement marker on "Data In" pin. Don't confuse it with sk6812-HS mini or sk6812 mini-E.
 
