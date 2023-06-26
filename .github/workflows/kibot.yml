@@ -1,4 +1,4 @@
-name: example
+name: kibot
 
 on:
   push:
@@ -28,10 +28,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v2
+    - uses: INTI-CMNB/KiBot@v2_k7
       with:
         # Required - kibot config file
         config: output.kibot.yaml
+        dir: 'kibot'
         schema: 'kicad/*.kicad_sch'
         board: 'kicad/*.kicad_pcb'
     - name: upload results
