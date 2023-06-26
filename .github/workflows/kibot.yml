@@ -33,6 +33,7 @@ jobs:
         config: output.kibot.yaml
         dir: 'kibot'
         board: './kicad/stm32_hotswap_chiffre.kicad_pcb'
+        schema: './kicad/stm32_hotswap_chiffre.kicad_sch'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
