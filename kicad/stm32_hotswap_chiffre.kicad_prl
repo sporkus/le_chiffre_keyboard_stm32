@@ -1,25 +1,25 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "All Copper Layers",
+    "active_layer": 36,
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
-    "net_color_mode": 2,
+    "high_contrast_mode": 1,
+    "net_color_mode": 1,
     "opacity": {
       "images": 0.33000001311302185,
-      "pads": 0.47999998927116394,
-      "tracks": 0.9200000166893005,
+      "pads": 0.9100000262260437,
+      "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.5099999904632568
+      "zones": 0.3199999928474426
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "0001040_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "0001210_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "stm32_hotswap_chiffre.kicad_prl",
