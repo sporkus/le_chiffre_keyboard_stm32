@@ -10,7 +10,7 @@ Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 * MX hotswap/Alps
 
 ## Firmware
-QMK and vial firmware are available
+[QMK config](./firmware/le_chiffre_32/) and [vial](./firmware/le_chiffre_32_vial.bin) are available
 
 ## Reset buttons
 * DFU button is placed in the legacy reset button position. Plug in the board or push the reset button while DFU button is held down to enable DFU mode.
