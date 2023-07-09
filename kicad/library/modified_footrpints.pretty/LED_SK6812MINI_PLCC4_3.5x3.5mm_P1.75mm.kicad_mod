@@ -3,7 +3,7 @@
   (descr "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
   (tags "LED RGB NeoPixel Mini")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -2.425) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.065 -2.605) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 5a11e3a0-df26-4e1e-8b8f-efb3ead5086b)
   )

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SMCJ6.5CA
-D ESD Suppressors / TVS Diodes 1.5kW 6.5V 5% Bi-Directional
-K
-F https://www.littelfuse.com/products/tvs-diodes/surface-mount/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smcj_datasheet.pdf.pdf
-$ENDCMP
-#
-#End Doc Library
