@@ -1,15 +1,15 @@
 # Le Chiffre Keyboard - STM32 version
 -----------
 
-Open sourced design by tominabox1 updated to use stm32
+Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 
-## Changes  
+## Changes
 * MCU: STM32F072CBT6 (128Kb flash, built-in DFU bootloader, crystal-less)
 * RGB leds changed to SK6812 mini for voltage tolerance
 * Roundeded PCB outline
 * MX hotswap/Alps
 
-## Firmware 
+## Firmware
 QMK and vial firmware are available
 
 ## Reset buttons
@@ -18,3 +18,10 @@ QMK and vial firmware are available
 ## Fabrication
 * pcb dimensions: 84.96x227.34mm
 * SK6812 mini 3535 has placement marker on "Data In" pin. Don't confuse it with sk6812-HS mini or sk6812 mini-E.
+
+## PCB
+![](./img/pcb_front.png)
+![](./img/pcb_back.png)
+
+## Credits
+tominabox1 for the [original design](https://github.com/tominabox1/Le-Chiffre-Keyboard)
