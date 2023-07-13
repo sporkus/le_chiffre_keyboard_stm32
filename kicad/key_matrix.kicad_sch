@@ -6,8 +6,8 @@
 
   (title_block
     (title "Hotswap Chiffre")
-    (date "2023-07-07")
-    (rev "0.2")
+    (date "2023-07-13")
+    (rev "0.2.1")
     (company "sporkus")
   )
 
@@ -2690,7 +2690,7 @@
     (property "Value" "Rotary_Encoder_Switch" (at 89.535 148.5646 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Keebio-Parts:RotaryEncoder_EC11" (at 93.345 159.639 0)
+    (property "Footprint" "modified_footrprints:RotaryEncoder_EC11_no_mp" (at 93.345 159.639 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 89.535 162.179 0)
