@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|33502331|108919525|a23044ac-e00d-4e1b-b500-d95d66c4667e|42b88cae-477d-4d2f-b232-945ff9d6bf74",
-        "hole_near_hole|149179472|79278057|19b594e2-47cc-4288-b928-a4091e87a4a3|2fdc7d76-6669-4079-99bc-096236777347"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -178,7 +175,8 @@
         0.0,
         0.2,
         0.3,
-        0.4
+        0.4,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -498,7 +496,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../chiffre.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -528,7 +526,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../schematic_pdfs",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

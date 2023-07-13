@@ -21,7 +21,8 @@
       ]
     },
     "features": {
-        "encoders": true,
+        "console": true,
+        "encoder": true,
         "extrakey": true,
         "mousekey": true,
         "nkro": true
@@ -117,14 +118,4 @@
             ]
         }
     },
-    "rgblight": {
-        "led_count": 11,
-        "pin": "A15",
-        "hue_steps": 10,
-        "saturation_steps": 17,
-        "brightness_steps": 17,
-        "animations": {
-            "rainbow_mood": true
-        }
-    }
 }
