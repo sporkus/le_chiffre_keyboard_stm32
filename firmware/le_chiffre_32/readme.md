@@ -3,7 +3,7 @@
 32-bit version of the Le Chiffre originally designed by tominabox1
 
 * Keyboard Maintainer: [sporkus](https://github.com/sporkus)
-* Hardware Supported: APM32F072
+* Hardware Supported: STM32F072
 * Hardware Availability: [](https://github.com/sporkus/le_chiffre_keyboard_stm32)
 
 Make example for this keyboard (after setting up your build environment):
@@ -22,3 +22,4 @@ Enter the DFU bootloader in 3 ways:
 
 * **Physical DFU button**: hold the button while powering up the keyboard
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
