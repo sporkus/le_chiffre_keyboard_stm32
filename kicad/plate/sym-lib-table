@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LeChiffre_Plate-rescue")(type "KiCad")(uri "${KIPRJMOD}/LeChiffre_Plate-rescue.kicad_sym")(options "")(descr ""))
+)
