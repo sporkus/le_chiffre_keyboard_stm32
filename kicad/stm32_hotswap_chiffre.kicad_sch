@@ -3587,8 +3587,8 @@
     (property "JlcRotOffset" "" (at 73.66 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd6abe02-6789-424f-bed5-a942f6011a49))
-    (pin "2" (uuid 83b7d112-c049-48ee-a925-58a86d4aa9a2))
+    (pin "1" (uuid 52ba8c6e-7556-4a96-aa5b-2f8225ccad0b))
+    (pin "2" (uuid 65be0aa2-db89-47b6-8098-00cbb6d11d0a))
     (instances
       (project "LeChiffre"
         (path "/3e5b12b9-e299-4607-be3a-3e18ea6cea6d"

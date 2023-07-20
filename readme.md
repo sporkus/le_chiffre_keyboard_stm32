@@ -3,7 +3,7 @@
 
 Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 
-## Changes
+## Changes from the original
 * MCU: STM32F072CBT6 (128Kb flash, built-in DFU bootloader, crystal-less)
 * RGB leds changed to SK6812 mini for voltage tolerance
 * Roundeded PCB outline
@@ -26,3 +26,9 @@ Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 
 ## Credits
 tominabox1 for the [original design](https://github.com/tominabox1/Le-Chiffre-Keyboard)
+
+## Changelog
+* v0.2.2: change center switch to soldered instead of hotswap. Group buy.
+* v0.2.1: added front led bypass jumper
+* v0.2.0: improved protection circuit
+* v0.1: working initial prototypes

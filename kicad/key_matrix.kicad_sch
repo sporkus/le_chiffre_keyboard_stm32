@@ -1222,7 +1222,7 @@
     (property "Value" "SW_Push" (at 59.055 157.8864 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 69.215 152.4 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U" (at 69.215 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 69.215 152.4 0)

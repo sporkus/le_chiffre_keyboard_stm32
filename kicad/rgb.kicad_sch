@@ -935,8 +935,8 @@
     (property "Datasheet" "~" (at 102.108 40.132 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17a1fb2a-1015-4077-9e2a-67df3f483e2b))
-    (pin "2" (uuid 50fe4379-df53-4486-a741-4a7c43b1c35b))
+    (pin "1" (uuid 74622bee-4095-4045-a972-a264cf175417))
+    (pin "2" (uuid c85049e0-8d5a-4575-878c-d40411353876))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
