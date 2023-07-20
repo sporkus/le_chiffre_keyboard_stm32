@@ -1,0 +1,49 @@
+name: "KiCad CI/CD"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - '**.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+  pull_request:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - '**.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: generate PCB documentation
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: kicad/pcb/config.kibot.yaml
+        dir: 'documentation'
+        schema: 'kicad/pcb/stm32_hotswap_chiffre.kicad_sch'
+        board: 'kicad/pcb/stm32_hotswap_chiffre.kicad_pcb'
+        verbose: 0
+      continue-on-error: true
+
+    - name: generate plate files
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: kicad/plate/config.kibot.yaml
+        dir: 'plate'
+        board: 'kicad/plate/LeChiffre_Plate.kicad_pcb'
+        verbose: 0
+      continue-on-error: true
+
+    - uses: EndBug/add-and-commit@v9
+      with:
+        add: 'plate documentation'
+        message: '[kibot]'
