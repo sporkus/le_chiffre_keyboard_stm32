@@ -1095,8 +1095,8 @@
     (property "JlcRotOffset" "-14" (at 205.74 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2f789f4-4046-4223-bd7f-f615233311fb))
-    (pin "2" (uuid fcf3079a-6317-4a5f-a985-5dc94ac2e782))
+    (pin "1" (uuid 89fdee38-e9a8-4121-a769-c5b2dbc0fd1e))
+    (pin "2" (uuid a7e0c8fb-9e6d-4ce4-89a6-aad81239c6ca))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1129,8 +1129,8 @@
     (property "JlcRotOffset" "14" (at 102.87 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70b2db93-f179-4742-a331-9cf6939c5318))
-    (pin "2" (uuid 4d4bf8a1-9ab4-4dfd-9c4f-34749e7e66ac))
+    (pin "1" (uuid c5382542-2126-48f7-a4b3-55a6fcb1774b))
+    (pin "2" (uuid d7fd7f48-02e4-4c93-a27e-53b785e30ab4))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1163,8 +1163,8 @@
     (property "JlcRotOffset" "-14" (at 177.8 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 34ae042e-bb72-4a03-8c85-2c726fa3ae9d))
-    (pin "2" (uuid a3b62f8f-be45-4d79-b437-201e3f200ae3))
+    (pin "1" (uuid 2465c639-ac86-439c-abac-f863e8cd9166))
+    (pin "2" (uuid 91e99ab5-2c56-455b-bd07-e7d46d583741))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1197,8 +1197,8 @@
     (property "JlcRotOffset" "0" (at 70.485 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a53b2248-5a96-4891-a233-0e477433f746))
-    (pin "2" (uuid 874d2046-8779-425a-b887-3916d012ff99))
+    (pin "1" (uuid 1059c215-ce74-49fe-a57a-29976532d78f))
+    (pin "2" (uuid 6ef2d9a3-0f5e-4f94-a4fe-a9663e87411c))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1234,8 +1234,8 @@
     (property "exclude_pcba" "true" (at 64.135 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 221bc003-108c-4beb-ba80-4c4222b165d5))
-    (pin "2" (uuid ff6450c8-9fe8-44ea-9ed0-6cc41f8349ff))
+    (pin "1" (uuid e514ca1c-6791-48ef-bb87-994c65607dd9))
+    (pin "2" (uuid a90f7d26-6a12-47c7-ad39-e77c1b54013b))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1271,8 +1271,8 @@
     (property "exclude_pcba" "true" (at 80.01 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a0abaad-9766-4866-ace5-813f6906a9cd))
-    (pin "2" (uuid 28ebf486-84e2-452e-83f8-f3274e2e34fc))
+    (pin "1" (uuid 9351c230-9b44-4694-a429-6eec6e0d8f14))
+    (pin "2" (uuid 54507bf4-755d-448d-a641-31c389896a6d))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1305,8 +1305,8 @@
     (property "JlcRotOffset" "14" (at 116.84 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 927707f3-ae43-4676-8f00-84c82abd68b3))
-    (pin "2" (uuid 4419b4d3-2372-4d5c-8e6f-966ac25782c0))
+    (pin "1" (uuid 7101776d-93b5-473d-a618-5192c11bcdd9))
+    (pin "2" (uuid 87a85bd9-fa7e-4610-882b-bf2b691bf40a))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1339,8 +1339,8 @@
     (property "JlcRotOffset" "14" (at 88.9 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4898b307-2167-4ec6-b518-21b5839e6e76))
-    (pin "2" (uuid 1afb8e3c-ce8b-4c97-920a-80d892c41829))
+    (pin "1" (uuid 7859ee7f-6dac-4f84-86ec-1e8b239c9dfd))
+    (pin "2" (uuid 1660a0ad-8f4c-41f7-8537-dd2e2e21ceff))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1373,8 +1373,8 @@
     (property "JlcRotOffset" "14" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6de1950e-68ee-4b60-99ff-62bd1e5c12e8))
-    (pin "2" (uuid 131d92dd-c9d2-4c3c-9701-77ac368e7dec))
+    (pin "1" (uuid ce8d175e-5411-441f-85db-9a0b95e1a42a))
+    (pin "2" (uuid 878892db-898b-41d5-897c-0855ca39e845))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1410,8 +1410,8 @@
     (property "exclude_pcba" "true" (at 196.85 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee48dbfb-baea-424a-a915-2961a29bcba8))
-    (pin "2" (uuid 19a58ff0-7c5f-4427-a1f7-bef4cd0fb8ac))
+    (pin "1" (uuid e4ded7ed-7720-46f3-9ee9-9a01b8d0e817))
+    (pin "2" (uuid b944b3da-4d89-4d45-b9b8-09ad7544dd19))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1447,8 +1447,8 @@
     (property "exclude_pcba" "true" (at 121.92 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d7b7448-1a1c-416c-9a37-a7f94db8e335))
-    (pin "2" (uuid a178c9ee-24d3-4c3c-a738-00c7b53ddced))
+    (pin "1" (uuid 29c70ad2-1528-44b1-9409-7809a12bd6a4))
+    (pin "2" (uuid 3c2aeb48-1656-4474-93f9-3336030c015a))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1481,8 +1481,8 @@
     (property "LCSC" "C307331" (at 108.585 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19017cb0-feed-41b5-a84c-43e960407c0a))
-    (pin "2" (uuid 33d67438-ae69-4845-ad0b-482fbce5b8e8))
+    (pin "1" (uuid 27d57090-0544-4963-88d7-c4781a05e4ce))
+    (pin "2" (uuid 32c0bc50-d1b8-43a6-ab4a-134b24ed339a))
     (instances
       (project "key_matrix"
         (path "/1ac11323-c771-4a76-9fcd-d7f0e4f03279"
@@ -1520,8 +1520,8 @@
     (property "JlcRotOffset" "-14" (at 177.8 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a15a3fa-d47d-4b07-aa3c-739ceb394ecd))
-    (pin "2" (uuid 9b3904e7-884e-422e-8cb7-7546ba0f2c5c))
+    (pin "1" (uuid f9cf16b7-976e-4968-a31d-60ad90a77e41))
+    (pin "2" (uuid b6f117fa-a039-4912-a8a0-700acd14a2f1))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1554,8 +1554,8 @@
     (property "JlcRotOffset" "-14" (at 149.86 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1db5eef9-6874-46a5-b3a8-f9ddbae716d7))
-    (pin "2" (uuid dd988adb-e2e0-4041-97aa-db8098553bb2))
+    (pin "1" (uuid 09227261-d3ec-4b78-80e5-4dc3b8999546))
+    (pin "2" (uuid 1aecf873-428c-40e5-a9d0-82c67824e550))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1591,8 +1591,8 @@
     (property "exclude_pcba" "true" (at 182.88 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 284535f4-a849-441d-b73c-c068d2484c09))
-    (pin "2" (uuid 42a203ba-820a-465a-b51b-1d756c314126))
+    (pin "1" (uuid e37615f7-bf48-4e13-bb14-048afeedcf0b))
+    (pin "2" (uuid 7c440505-a516-4de1-9c82-d1c7d20814c0))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1628,8 +1628,8 @@
     (property "exclude_pcba" "true" (at 182.88 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28f42b3d-eb9c-46c0-b1ca-e4e3c18c2f03))
-    (pin "2" (uuid e0fb68a2-ee3f-420a-8949-d9f1cde4c5f8))
+    (pin "1" (uuid c736b9b8-8608-40a1-98d5-926cb2f4bd66))
+    (pin "2" (uuid a78c618c-2dbf-4914-8a32-6fb764596b16))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1665,8 +1665,8 @@
     (property "exclude_pcba" "true" (at 168.91 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cac6dd05-1f69-43df-94bb-2103ee4a5903))
-    (pin "2" (uuid d1ddd319-7953-49c6-a5b8-60f65125c48f))
+    (pin "1" (uuid 1eefaecd-7ccc-4c9a-9df8-0a7c7f4915c8))
+    (pin "2" (uuid a4275e0a-2fc4-4bab-8f5a-4046a5d5a361))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1702,8 +1702,8 @@
     (property "exclude_pcba" "true" (at 210.82 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12ba90a2-8ddf-49c6-9919-193aff2ae198))
-    (pin "2" (uuid 58a8ae32-4024-4906-b5b0-9eb4b877d1b1))
+    (pin "1" (uuid c3cab9b6-7c89-4fa1-b410-e31771ccb7d4))
+    (pin "2" (uuid 1663f31f-65c2-4466-b5b0-139ea01fef13))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1736,8 +1736,8 @@
     (property "JlcRotOffset" "-14" (at 149.86 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51ecfece-605f-42b7-9a10-29a4d8342f14))
-    (pin "2" (uuid 7d4ee445-e81e-4d04-84b8-81adbbd4333c))
+    (pin "1" (uuid fde4c083-3f6b-4939-8a2f-e50e8a81fc7f))
+    (pin "2" (uuid 2b6cc3f1-1042-49cd-b6f0-b110ff3a20a9))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1773,8 +1773,8 @@
     (property "exclude_pcba" "true" (at 93.98 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f435b764-5ea5-4942-a3dc-a5099a169941))
-    (pin "2" (uuid 3ff16d91-704e-4c06-af18-3a558e5061e3))
+    (pin "1" (uuid 225b26cc-5ae7-47a5-8655-66391902737d))
+    (pin "2" (uuid 14a8dccf-e817-46d7-86cd-4e3cd3821670))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1810,8 +1810,8 @@
     (property "exclude_pcba" "true" (at 107.95 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a18e729-8809-46b8-9ed4-fe77d5942ac7))
-    (pin "2" (uuid e5271ff9-1a81-40dc-a916-f207d4f4524f))
+    (pin "1" (uuid 6a2d4da9-0b52-49db-bdec-484d13765174))
+    (pin "2" (uuid ba5c185c-d1dc-47e5-bb66-15e9bb6c098a))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1847,8 +1847,8 @@
     (property "exclude_pcba" "true" (at 107.95 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dde70662-c43b-41da-bd82-17ac21a60c94))
-    (pin "2" (uuid db73074d-4452-48ae-8bc0-167fe9eaf9dd))
+    (pin "1" (uuid 24fb3b29-e9b9-4b9f-a2ea-fa7474c4c2ef))
+    (pin "2" (uuid 097c5437-f54a-4e27-b9fe-68382f94fd6e))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1884,8 +1884,8 @@
     (property "exclude_pcba" "true" (at 66.04 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e82f72e-62f5-4f0d-8f1f-d2dd92165f2e))
-    (pin "2" (uuid 04ad803d-7753-48ad-9a06-9ce1d2a9d209))
+    (pin "1" (uuid 8c21add7-66e1-47e4-a261-1260718057d2))
+    (pin "2" (uuid e6a8e14a-d722-4db1-a0d0-287f2ecda54b))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1921,8 +1921,8 @@
     (property "exclude_pcba" "true" (at 80.01 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 277aa95f-c8ef-4a73-9f2f-7cbcffd5a940))
-    (pin "2" (uuid 6ce2d5a6-2b01-417c-af30-0555b993d425))
+    (pin "1" (uuid 7c2d6cfb-0f6d-48a3-bd9f-51c13c2f886f))
+    (pin "2" (uuid fe0031ed-f17d-4569-bffd-541451a285d0))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1958,8 +1958,8 @@
     (property "exclude_pcba" "true" (at 196.85 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cbe0defd-bf31-479f-9a62-60a3e83512d8))
-    (pin "2" (uuid 3fbc2af0-6d56-4944-8cab-492009fdd2ea))
+    (pin "1" (uuid 38f81513-2b57-4826-8abe-1217580362f8))
+    (pin "2" (uuid 73cf2576-4489-4a38-ac88-c51c9884146a))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -1992,8 +1992,8 @@
     (property "JlcRotOffset" "14" (at 88.9 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c731f8f9-4451-452b-a247-93b7641c25eb))
-    (pin "2" (uuid ea940770-aee7-48bd-a415-5624a68faaa6))
+    (pin "1" (uuid c665087c-1dbc-42a0-a82f-ab25fa0bdb5d))
+    (pin "2" (uuid f1207184-b1dd-4312-941e-cbba9120d47b))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2029,8 +2029,8 @@
     (property "exclude_pcba" "true" (at 154.94 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6bfc3f6b-0868-4a6b-b358-3e5144f35a17))
-    (pin "2" (uuid 56a1c322-48ed-459a-b0a5-598fede6154e))
+    (pin "1" (uuid ecb433d2-74d8-4029-b433-efd0c8b745c7))
+    (pin "2" (uuid 01c82672-6ea0-4b00-b7ce-add7db900c34))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2066,8 +2066,8 @@
     (property "exclude_pcba" "true" (at 168.91 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 23d9010b-1f44-467f-acab-ee868af183f0))
-    (pin "2" (uuid 2a45214a-9d70-4568-bf04-9179a7b4d1a1))
+    (pin "1" (uuid b23e78cd-87ab-4876-adb0-e06206b1b5a5))
+    (pin "2" (uuid 9e3191e2-42a1-4e47-809f-9ef261255d64))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2103,8 +2103,8 @@
     (property "exclude_pcba" "true" (at 154.94 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37ac63f7-37d9-4393-a000-7f2aea7707c2))
-    (pin "2" (uuid b5ebca01-7ad3-4611-9d2d-7dabc970860a))
+    (pin "1" (uuid ee623b0a-9c51-43db-847a-aed743c2917f))
+    (pin "2" (uuid 79da26ea-424c-4eb3-862f-c21366c1b9b0))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2140,8 +2140,8 @@
     (property "exclude_pcba" "true" (at 121.92 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b20d384-4e70-4134-86cb-e71c1fed0270))
-    (pin "2" (uuid 102a3b3f-d7fd-43c0-b96b-c5de028013b1))
+    (pin "1" (uuid aaea31db-195a-449e-80d1-9913270e90e3))
+    (pin "2" (uuid bfcfd661-d377-44d3-971c-9aedacd66ef3))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2177,8 +2177,8 @@
     (property "exclude_pcba" "true" (at 121.92 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dd55354f-bffd-4175-95de-46bc516e6b0a))
-    (pin "2" (uuid 84938dbe-e3e8-4a3e-84d4-b34ce55e4e07))
+    (pin "1" (uuid 761f160a-224e-49e1-be51-17c31403e48d))
+    (pin "2" (uuid 915e30e2-ab5c-4402-8344-956efe2f75f8))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2211,8 +2211,8 @@
     (property "JlcRotOffset" "14" (at 116.84 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b7b3682-7967-4042-9b3a-cea27d53e832))
-    (pin "2" (uuid 06aeccbf-dae1-405c-8767-5446f71bff87))
+    (pin "1" (uuid a989111f-dce0-4108-8658-8c3b2c5e25ad))
+    (pin "2" (uuid 650913bb-ba07-4a9e-809f-60d381029804))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2245,8 +2245,8 @@
     (property "LCSC" "C307331" (at 108.585 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a74ab141-6533-4ae5-b6a0-75a1d803a93e))
-    (pin "2" (uuid 918f5565-23ab-434a-b5b0-aa82559e5a6b))
+    (pin "1" (uuid 795e10c8-355a-4db4-97c5-19a391c32e45))
+    (pin "2" (uuid 5b7e3d03-73f1-4144-bd80-dca4d371d859))
     (instances
       (project "key_matrix"
         (path "/1ac11323-c771-4a76-9fcd-d7f0e4f03279"
@@ -2284,8 +2284,8 @@
     (property "JlcRotOffset" "-14" (at 163.83 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 693d4367-bbf3-4e99-ab3b-c260ef004a8a))
-    (pin "2" (uuid 2a5ef222-e106-424b-a02f-7fe197520963))
+    (pin "1" (uuid 33d54778-1ec7-420d-8574-1fc4aaf4d8f1))
+    (pin "2" (uuid 28e6267c-e7e1-48c4-af37-dadf2e578583))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2318,8 +2318,8 @@
     (property "JlcRotOffset" "14" (at 102.87 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e46518fb-eb91-4836-9517-d0b67fa456dc))
-    (pin "2" (uuid 1c352e0c-89dd-4d43-8f84-6d7865710479))
+    (pin "1" (uuid 8419f0af-f922-4144-8db1-27604b68624a))
+    (pin "2" (uuid 85e2590f-1618-42ae-84b9-34c2cb70e31b))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2355,8 +2355,8 @@
     (property "exclude_pcba" "true" (at 154.94 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c3d382c-d250-438d-bc63-ce04da549d25))
-    (pin "2" (uuid c204540e-5f15-47e0-960f-c19537e6c667))
+    (pin "1" (uuid 5236ecb5-2d53-4b59-a843-9eecfd794153))
+    (pin "2" (uuid 025afa17-3229-4981-b19f-63c47e1cd617))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2389,8 +2389,8 @@
     (property "JlcRotOffset" "14" (at 74.93 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46adfc9b-6981-42b6-9de2-039f31b613fa))
-    (pin "2" (uuid 0325e317-df50-440a-9d7a-0770319c7db5))
+    (pin "1" (uuid c8178d5d-88e2-4ccf-8921-3be7d4106f09))
+    (pin "2" (uuid 389e4281-3024-45e9-8b0c-7d5b790d6f92))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2426,8 +2426,8 @@
     (property "exclude_pcba" "true" (at 66.04 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fde8229-ffc4-4279-b22c-c999927c97c3))
-    (pin "2" (uuid f573b41f-ed8b-4cdb-bdd4-99837b81d3d0))
+    (pin "1" (uuid 8b955e68-2e90-4fec-9a26-862420f43656))
+    (pin "2" (uuid 5de67d65-18ff-438e-83f8-7b0b282a1397))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2460,8 +2460,8 @@
     (property "JlcRotOffset" "-14" (at 163.83 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fc4b608-1509-4375-b38c-f7df68da094d))
-    (pin "2" (uuid 53a53551-4664-495e-a934-1abc87dac4fb))
+    (pin "1" (uuid 5e8d7988-eac5-475f-9c05-232b87cc18f0))
+    (pin "2" (uuid 9d9a0f23-23e1-4394-b683-50bdc9484b9c))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2494,8 +2494,8 @@
     (property "JlcRotOffset" "-14" (at 149.86 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid daac25a7-8950-4a69-86af-050416432f33))
-    (pin "2" (uuid ec901d0e-b700-41d1-af88-ee9951af3664))
+    (pin "1" (uuid b62c05d7-9386-493a-8265-b242bb44afb0))
+    (pin "2" (uuid 26733290-f002-4322-979f-adc559933c73))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2528,8 +2528,8 @@
     (property "JlcRotOffset" "14" (at 88.9 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b017c6cb-53c5-4c32-b60b-b8b0ce943c56))
-    (pin "2" (uuid eb88530a-5632-4e46-aaf9-543c6d899e09))
+    (pin "1" (uuid 93f2ba0f-3e7d-4c9f-bc92-740ad9a26ea9))
+    (pin "2" (uuid 0fce975b-473e-4e35-ba87-a067916ba1f8))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2562,8 +2562,8 @@
     (property "JlcRotOffset" "14" (at 88.9 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4d3b1ff-e668-463d-a3ba-d0799eea0e9e))
-    (pin "2" (uuid 7b21861e-589a-42de-bf30-c899e202b1e2))
+    (pin "1" (uuid 012965ab-23c0-4395-a08e-949f0188b079))
+    (pin "2" (uuid a458a8b0-c415-4aa3-9d6d-57089458d37f))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2599,8 +2599,8 @@
     (property "exclude_pcba" "true" (at 107.95 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e18322f-e775-4676-92fa-0db66c54ea93))
-    (pin "2" (uuid 1a574bc4-b917-4000-a40b-c423529e7598))
+    (pin "1" (uuid c0aff785-c914-4121-a804-7ed07b748e67))
+    (pin "2" (uuid 9495abe7-ea01-47d9-871d-4740b4e9940b))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2633,8 +2633,8 @@
     (property "JlcRotOffset" "-14" (at 205.74 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6cb41265-b58b-4b58-8aa2-c69a66efdf30))
-    (pin "2" (uuid 44c30193-702c-4da2-b2a2-3bd7b52adc3f))
+    (pin "1" (uuid d281d4b3-1fa1-459f-8200-440b2a313a95))
+    (pin "2" (uuid 6dc4e131-67ee-43e9-89bb-9fa473e22f44))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2670,8 +2670,8 @@
     (property "exclude_pcba" "true" (at 80.01 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1e6ec36-5994-41f2-88c2-5514fe68892b))
-    (pin "2" (uuid ec6bb835-67d4-4281-9282-df0f94ed2266))
+    (pin "1" (uuid 99b7db82-1430-4198-b4be-3a3cbcb6669f))
+    (pin "2" (uuid 276d9ea9-7282-4ac5-86f1-f1796ab3cea1))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2701,7 +2701,7 @@
     (property "Datasheet" "" (at 125.73 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd68ef13-72ea-453c-b552-95185079786f))
+    (pin "1" (uuid 431fe732-558d-4bbb-ab6a-8a9392a65ad8))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2737,8 +2737,8 @@
     (property "exclude_pcba" "true" (at 196.85 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 82d48ac1-a78f-4a1a-b1f1-bff9a98e7f31))
-    (pin "2" (uuid 434e732b-5085-4fad-95e8-42d4c42e846f))
+    (pin "1" (uuid eff88090-c391-47e4-8a34-f4ddcac6d3a0))
+    (pin "2" (uuid 1914539f-1ecd-4e79-87fe-c2103c0c62e7))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2762,7 +2762,7 @@
     (property "Value" "Rotary_Encoder_Switch" (at 89.535 148.5646 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "modified_footrprints:RotaryEncoder_EC11_no_mp" (at 93.345 159.639 0)
+    (property "Footprint" "modified_footprints:RotaryEncoder_EC11_no_mp" (at 93.345 159.639 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 89.535 162.179 0)
@@ -2771,11 +2771,11 @@
     (property "exclude_pcba" "true" (at 89.535 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid f826ff5c-99f8-4eb5-87e5-641232779029))
-    (pin "B" (uuid e420e10b-0155-4343-9b5b-de469cb31396))
-    (pin "C" (uuid e38c4bd3-1658-4daf-8895-18209f00edde))
-    (pin "S1" (uuid d59ebb28-3148-4272-9974-fad559cb2905))
-    (pin "S2" (uuid 41553a0e-d37d-48d3-98ef-b9740f932dee))
+    (pin "A" (uuid fd93f200-5cf6-480d-8fd8-7ab68b928ca5))
+    (pin "B" (uuid 66ebd4b3-fe53-4ea0-8db6-71c01544fb32))
+    (pin "C" (uuid f0548ff1-0f22-4260-8d31-5ca1b1415789))
+    (pin "S1" (uuid f6f8a773-18dd-49cf-9ce3-4b1753c56231))
+    (pin "S2" (uuid 0abd921e-cfd1-4c24-8637-4b56344a7f89))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2808,8 +2808,8 @@
     (property "JlcRotOffset" "-14" (at 149.86 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2226cb09-84a2-4a01-9226-889fd3dc6418))
-    (pin "2" (uuid 688bf509-1295-45a5-9846-9038e54437a5))
+    (pin "1" (uuid c6d54a42-4e1d-4e18-8de0-c44ec0ee05ea))
+    (pin "2" (uuid 54ad12b8-7c3d-4a1d-8bda-b68c12d5bbd9))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2842,8 +2842,8 @@
     (property "JlcRotOffset" "14" (at 74.93 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e6d154d-17dc-4b5a-9984-32516e634e49))
-    (pin "2" (uuid 5b140230-d3b1-4cbd-a455-0e1de0ae36b1))
+    (pin "1" (uuid cb0fff3b-ed72-4753-aad6-ca38a4d9d2e5))
+    (pin "2" (uuid 2c94fbdc-c458-47f4-b026-8b31ce2ebf8c))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2876,8 +2876,8 @@
     (property "JlcRotOffset" "-14" (at 205.74 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 550ce37e-45f2-4113-ac06-8993dc3f633d))
-    (pin "2" (uuid 9de9f404-02b4-4bb9-9a24-da7088b3ceea))
+    (pin "1" (uuid ddc7fca5-6a8e-487e-be02-65bf1f0e1f8e))
+    (pin "2" (uuid 656d7fb3-cc09-41be-9ead-5ee13d1d0265))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2910,8 +2910,8 @@
     (property "JlcRotOffset" "14" (at 116.84 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dddf401b-da8a-4568-9c14-28bb5941a6c6))
-    (pin "2" (uuid 357c8339-4b4e-47a3-9689-f7faacb96ce1))
+    (pin "1" (uuid 6b285f52-7f4b-43f2-acf3-ca4062f8c4e0))
+    (pin "2" (uuid 8d11e2b9-f3f0-42a9-a522-bf98ba1c7abf))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2944,8 +2944,8 @@
     (property "JlcRotOffset" "-14" (at 177.8 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14c83a91-df62-4b97-9709-25ba67d1c788))
-    (pin "2" (uuid 87b6a8ac-e6fb-4eca-86ba-8eb9f770a8fb))
+    (pin "1" (uuid b119d1d9-7675-4e7e-808b-05326cf29c82))
+    (pin "2" (uuid 26d38491-a9d5-4e3a-b0d3-c2ad49cd0656))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -2981,8 +2981,8 @@
     (property "exclude_pcba" "true" (at 154.94 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e95f9f2f-62cc-4a46-9541-8aff9fb4b151))
-    (pin "2" (uuid 36b0645b-4416-4877-87f0-66e9a2bceb00))
+    (pin "1" (uuid e8e0d77a-7fe5-4ac8-9289-f8431e0a8246))
+    (pin "2" (uuid 49b2687b-9b67-419a-8144-c33e6e86adce))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3018,8 +3018,8 @@
     (property "exclude_pcba" "true" (at 182.88 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09bfe7f6-6efd-4d49-add7-32f2ed96798c))
-    (pin "2" (uuid 76cc9ec1-331c-4b39-a3d6-c35f4b5ecfb4))
+    (pin "1" (uuid a2c0d063-a009-4c38-9675-31861e4d6a83))
+    (pin "2" (uuid 59c89965-5ba0-4635-899b-491eb92585ed))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3055,8 +3055,8 @@
     (property "exclude_pcba" "true" (at 210.82 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 135285c7-aeac-4e32-849c-84dfd58f49f1))
-    (pin "2" (uuid 232e19e8-db18-4111-90c2-bd487539935b))
+    (pin "1" (uuid 9ba01dde-34e7-478b-946f-128a8504e55d))
+    (pin "2" (uuid 30488584-1184-498e-a62f-9c9637255847))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3092,8 +3092,8 @@
     (property "exclude_pcba" "true" (at 182.88 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf3fb90a-6151-4bde-b1c9-7c4d3e7eef31))
-    (pin "2" (uuid d22bdfd9-157b-48f2-b2de-753676c3d951))
+    (pin "1" (uuid 4e13b92c-d2e4-4fdf-ae68-364076af5f49))
+    (pin "2" (uuid 468a2119-2c9a-4b6b-ab13-dcbac3c6106f))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3126,8 +3126,8 @@
     (property "JlcRotOffset" "-14" (at 177.8 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b0ca1c4-6b68-4ec6-a92d-e155f51cb024))
-    (pin "2" (uuid cff350ad-d2ca-4737-a723-14e307e700e2))
+    (pin "1" (uuid dc7bde99-aef4-4928-866e-1c35919244d0))
+    (pin "2" (uuid 62cd0089-101a-48c5-a91c-04182c5d8b08))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3160,8 +3160,8 @@
     (property "JlcRotOffset" "14" (at 60.96 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fd2c1af-6976-44b9-8973-981223375457))
-    (pin "2" (uuid 0f8c6626-ad57-4793-bc29-a5c90b39956b))
+    (pin "1" (uuid b10571ca-a158-49a0-abd3-28159cb164d1))
+    (pin "2" (uuid d769de41-0b3b-49a3-93ef-5093cb5abff7))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3197,8 +3197,8 @@
     (property "exclude_pcba" "true" (at 121.92 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3fb5d94-806f-4dbc-a6e4-b012c3b03005))
-    (pin "2" (uuid 09d3f6a5-04a8-40c9-8e27-949934c732b9))
+    (pin "1" (uuid d5d21d46-2de2-4701-8065-a68ccae9c6ff))
+    (pin "2" (uuid 927ee193-f55b-4d25-913b-cc6f6148d59c))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3231,8 +3231,8 @@
     (property "JlcRotOffset" "14" (at 60.96 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc7c15e3-fda9-4528-b975-22f42b0dc756))
-    (pin "2" (uuid 0d276f0b-1818-4306-a9b4-bab7f377ddfb))
+    (pin "1" (uuid 7a22c8cb-f37e-46fb-bc98-912f43b063d6))
+    (pin "2" (uuid e1395a9e-597a-4b7e-b1d1-d508ee21fdc2))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3265,8 +3265,8 @@
     (property "JlcRotOffset" "-14" (at 163.83 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03a5a871-c2a8-4816-aebe-4046826c91dc))
-    (pin "2" (uuid 97f38770-c35e-46d2-9b0a-30a9eac020a2))
+    (pin "1" (uuid 34c08aa0-d74c-496c-a997-11bac31f689f))
+    (pin "2" (uuid 177b3de6-3488-4589-8a36-9d0b0a6567c0))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3299,8 +3299,8 @@
     (property "JlcRotOffset" "14" (at 116.84 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e089ff6-b9a2-421c-939b-eab64927c7a3))
-    (pin "2" (uuid 5a9159e8-c871-4cc5-a270-c0a191f5c897))
+    (pin "1" (uuid 30a65b78-2ffe-472f-8c82-9bc748502451))
+    (pin "2" (uuid f0113de8-0018-45e2-af56-4317c7eea1d5))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3333,8 +3333,8 @@
     (property "JlcRotOffset" "-14" (at 191.77 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe021a75-66cb-4758-bea6-ee8d82632bc8))
-    (pin "2" (uuid 3daa2d0a-f7e3-4a34-9ee6-fa9eb598800c))
+    (pin "1" (uuid 31ee03cd-6cd9-4739-b521-d515dcbb3309))
+    (pin "2" (uuid e0815916-8b55-47d6-bf44-f253bf9be577))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3370,8 +3370,8 @@
     (property "exclude_pcba" "true" (at 93.98 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ff9d42ca-ee94-403a-a3d5-22bdd75a0c0b))
-    (pin "2" (uuid 2bb70568-b61e-4f62-b830-04c47073408c))
+    (pin "1" (uuid 556db01d-004a-4bbd-a563-7a8cbffae405))
+    (pin "2" (uuid 1706990b-016f-452a-9314-09331c1fc8d1))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3404,8 +3404,8 @@
     (property "JlcRotOffset" "-14" (at 191.77 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b5cf8ff-fcc9-4d5f-89bb-8bed2fc00c0a))
-    (pin "2" (uuid 16e694a5-b7db-40f8-9e2c-cbe7e645d974))
+    (pin "1" (uuid ffd57f6c-9aa4-43fd-b6ed-21a8a2bfbe92))
+    (pin "2" (uuid 666d973f-f172-4627-a012-65f4ebc3b130))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3441,8 +3441,8 @@
     (property "exclude_pcba" "true" (at 66.04 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07dd5521-fff5-46f1-b029-d7861261006a))
-    (pin "2" (uuid b6020bec-c9ef-4f7d-a0be-35c6729c5dd3))
+    (pin "1" (uuid c8fff936-a89c-478b-a59d-d58bcfca280c))
+    (pin "2" (uuid 7700c761-7f44-45cc-aaeb-9c0aed6d0799))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3478,8 +3478,8 @@
     (property "exclude_pcba" "true" (at 93.98 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb259154-0201-4589-811e-dca775ce25c2))
-    (pin "2" (uuid c81b74c8-aac0-4773-b572-6eba524d2c51))
+    (pin "1" (uuid f0ba2fb0-2d42-4703-add4-f31bc092401e))
+    (pin "2" (uuid a556d2ea-20f4-4000-9220-d2e8debd0284))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3515,8 +3515,8 @@
     (property "exclude_pcba" "true" (at 93.98 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e304f772-489d-4955-a785-3474151a1657))
-    (pin "2" (uuid 585c64f4-376a-4ff7-b6f2-b4c67352d148))
+    (pin "1" (uuid fb689f7b-07e3-45c5-818d-038e1cd5f739))
+    (pin "2" (uuid fec5a452-bda2-42b9-b9e2-9bb9d4bfe71d))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3549,8 +3549,8 @@
     (property "JlcRotOffset" "14" (at 102.87 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1372ef74-098d-497e-95f1-d3e39e0a9bc8))
-    (pin "2" (uuid c6ec61d8-29cf-4cd7-b73c-ca6456b43172))
+    (pin "1" (uuid de530a87-7f0a-4048-b7ff-7cb59f6a9398))
+    (pin "2" (uuid ff3f72c0-ec0b-4eed-8436-917e7414a74e))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3586,8 +3586,8 @@
     (property "exclude_pcba" "true" (at 168.91 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ee38c19-8f5a-4eb7-98d5-dcdada727d08))
-    (pin "2" (uuid 2445daae-7ba2-4d91-9bc2-33f3724a13fc))
+    (pin "1" (uuid 7f812f96-76b2-4cc6-ac7c-7470c4240fe4))
+    (pin "2" (uuid 82338663-b77a-461b-99d0-2c54f36dd54a))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3620,8 +3620,8 @@
     (property "JlcRotOffset" "14" (at 60.96 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 619a4f0d-d9c7-4c71-a9dc-07ad3e1dc878))
-    (pin "2" (uuid 303591be-73e3-49cd-8e0e-f15f5629f89a))
+    (pin "1" (uuid f00a1bb5-fd66-4436-bcf4-19a1dfb07685))
+    (pin "2" (uuid 6fec882d-362a-4c28-92d2-b2b767ce19bf))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3657,8 +3657,8 @@
     (property "exclude_pcba" "true" (at 210.82 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9fe1b36-bb3c-4fc0-ba85-fc5de2225181))
-    (pin "2" (uuid 79916ded-33c3-4516-81c3-40fa23448f5e))
+    (pin "1" (uuid 6fb08b0c-e0a9-4137-8658-92006d5ecb69))
+    (pin "2" (uuid f01bb93f-7a49-498a-a545-ab81c1358cff))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
@@ -3691,8 +3691,8 @@
     (property "JlcRotOffset" "-14" (at 191.77 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c49045f-3e67-4bcf-829a-06a1129b90a0))
-    (pin "2" (uuid e3a1cf83-721d-4c51-8a1d-4e04387b17e2))
+    (pin "1" (uuid 11bbd34e-d360-4edc-92ca-492063659bb8))
+    (pin "2" (uuid 8ac30a2f-23a7-45aa-a069-a50028df7fa7))
     (instances
       (project "stm32_hotswap_chiffre"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"

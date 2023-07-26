@@ -94,4 +94,14 @@
   (pad "2" thru_hole circle (at 2.54 -5.08) (size 3.3 3.3) (drill 3) (layers "*.Cu") (tstamp 593a8e14-ef26-48e1-98a0-086c616eb2b7))
   (pad "2" smd roundrect (at 4.567 -5.08) (size 2.55 0.5) (layers "B.Cu") (roundrect_rratio 0.08) (tstamp f83640a6-4f4a-4d8b-ae67-8beb672bda37))
   (pad "2" smd roundrect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.08) (tstamp 8f2b9056-367f-4e53-95d0-2908ca67c428))
+  (model "${KIPRJMOD}/library/3d_models/CherryMX Switch.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/library/3d_models/Kailh Hotswap.step"
+    (offset (xyz 4.75 6.75 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

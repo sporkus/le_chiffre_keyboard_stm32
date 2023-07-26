@@ -4075,7 +4075,7 @@
     (property "Value" "SKQGABE010" (at 87.63 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "modified_footrprints:SW_SPST_SKQG_WithoutStem" (at 83.82 62.23 0)
+    (property "Footprint" "modified_footprints:SW_SPST_SKQG_WithoutStem" (at 83.82 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 62.23 0)
