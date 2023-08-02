@@ -104,4 +104,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
+  (model "${KIPRJMOD}/library/3d_models/row5_U1.25.step"
+    (offset (xyz 0 0 11))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
