@@ -34,6 +34,10 @@ Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 #### Schematic
 [Schematic pdf](./documentation/stm32_hotswap_chiffre-schematic.pdf)
 
+
+#### Case
+![3d printable case](./case/case.png)
+
 ## Credits
 tominabox1 for the [original design](https://github.com/tominabox1/Le-Chiffre-Keyboard)
 
