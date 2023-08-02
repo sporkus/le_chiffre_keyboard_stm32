@@ -1,7 +1,8 @@
 # 3d printable case
 ---
 
-Knob size is 19mm but can be easily modified with the provided step file.
+- 4-degree top mount case.
+- Knob size is 19mm but can be easily modified with the provided step file.
 
 ### Hardware
 - 15x: m2 x 3mm x 3mm heatset insert
