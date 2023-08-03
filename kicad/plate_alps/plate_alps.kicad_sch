@@ -1,0 +1,1325 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb)
+
+  (paper "A4")
+
+  (title_block
+    (title "Le Chiffre Plate")
+    (date "2023-08-03")
+    (rev "0.1")
+    (company "sporkus")
+  )
+
+  (lib_symbols
+    (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SW_Push" (at 0 -1.524 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Push button switch, generic, two pins" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_Push_0_1"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Switch:SW_Push") (at 25.4 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 10de0645-f8df-4a31-8850-4f16e4da39c2)
+    (property "Reference" "SW1" (at 25.4 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 25.4 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 25.4 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 25.4 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a7f6b67c-7429-4ecc-b341-8743fb27b58a))
+    (pin "2" (uuid b4130ab5-c20c-4002-9025-d918be9ed20f))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 96.52 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 165604d4-311d-428b-af79-908e90400b4b)
+    (property "Reference" "SW1" (at 96.52 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 96.52 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 96.52 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 04f7bd43-c863-4d6c-9482-05edf31c186c))
+    (pin "2" (uuid cc9f9d31-f019-4d77-adc2-42de2f6112d2))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 202.565 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 172d9a9e-3749-4225-a218-02bf3bcbf2ab)
+    (property "Reference" "SW1" (at 202.565 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 202.565 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 202.565 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 202.565 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d8c82366-7cbb-471a-adb7-d941afce0579))
+    (pin "2" (uuid 65e71d76-44e1-43c7-b9b7-dd1a78aa2895))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 184.785 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 24ce5ce7-618a-4a29-a6c5-4ecdb0ec622e)
+    (property "Reference" "SW1" (at 184.785 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 184.785 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 184.785 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.785 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 13e8177b-3671-4bda-b90f-6bdbc4f88324))
+    (pin "2" (uuid 3a14bff4-610b-4789-94c1-b6812edd77b0))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW28") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 60.96 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 254f600a-19f2-4ce0-ac72-830902603a2e)
+    (property "Reference" "SW1" (at 60.96 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 60.96 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 20c06302-6307-4677-8389-eeff45b3d335))
+    (pin "2" (uuid a86d932c-4edb-46ee-9245-cf5d68b998de))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 149.225 78.74 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 35084cf0-6a92-4941-8eae-ead6b53af182)
+    (property "Reference" "SW1" (at 149.225 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 149.225 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 149.225 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.225 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d8fa6b4-cfa0-4eb0-85e4-67f17e276414))
+    (pin "2" (uuid 4fa2ab88-659d-4a8f-9b36-99df83c7cbf9))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW33") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 149.225 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3e374978-9da6-4c52-a9c4-076c5dc45571)
+    (property "Reference" "SW1" (at 149.225 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 149.225 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 149.225 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.225 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3b53dd3-8226-47aa-aa92-d70d9385c458))
+    (pin "2" (uuid ec3b81db-a4e2-4a21-9f6b-d47407ec46dc))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW26") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 78.74 78.74 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3f93ca42-b9da-452a-8832-eb79fd295ee6)
+    (property "Reference" "SW1" (at 78.74 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 78.74 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4481d867-ae0f-4b29-8b3e-9c4e6ed039a9))
+    (pin "2" (uuid fb1cc8cb-4a61-4219-8f26-df761e15d866))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 60.96 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4173bfbb-e331-464e-9d16-94569eb83fc8)
+    (property "Reference" "SW1" (at 60.96 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 60.96 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 842b5222-2e22-454d-bb9f-5412dede4518))
+    (pin "2" (uuid 1de02570-b4b2-4591-b963-4cc2bd684c40))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 122.555 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4ca0ee53-b8bf-4020-9638-d21b8fb4c5cd)
+    (property "Reference" "SW35" (at 122.555 37.465 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW_Push" (at 122.555 40.005 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 122.555 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 122.555 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e0a8111-4b3c-4200-bf6c-4429159e12bc))
+    (pin "2" (uuid 0be703af-4f4c-4cbb-8f2e-1688b02de867))
+    (instances
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 43.18 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 516d51ec-66eb-4baa-af96-50b7681e6048)
+    (property "Reference" "SW1" (at 43.18 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 43.18 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 43.18 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9f8c3365-805a-419e-821d-4e4cdf494eb0))
+    (pin "2" (uuid 9a110f3a-7778-412a-a0f9-033c7c666da8))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 149.225 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 590d3c6b-9660-4e56-9733-317c2ff31843)
+    (property "Reference" "SW1" (at 149.225 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 149.225 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 149.225 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.225 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 46767fff-0ff3-4691-8f18-e6d35b86c416))
+    (pin "2" (uuid 8e2f6888-aba2-4323-a6ac-b6f82b0591ee))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 202.565 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5f9cc11c-993a-4cb7-b01d-023671105e3e)
+    (property "Reference" "SW1" (at 202.565 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 202.565 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 202.565 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 202.565 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0304bbac-1479-4bc2-8ff6-0afbebb52e4d))
+    (pin "2" (uuid c66dc400-78bf-48c1-8684-8f97ebbfd559))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 78.74 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 62e11132-762b-4f84-b448-2e4b4bfe5fb1)
+    (property "Reference" "SW1" (at 78.74 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 78.74 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca628efb-f6c3-47b8-8d0b-17829a09718a))
+    (pin "2" (uuid 615fbd75-a22b-457d-8d31-7eb29e42ea21))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 25.4 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 67316a44-1a58-43c6-a444-c1eb93f0ad49)
+    (property "Reference" "SW1" (at 25.4 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 25.4 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 25.4 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 25.4 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0bcc9056-af29-4304-8b2e-1f4c21f609e5))
+    (pin "2" (uuid d36b5683-c9fa-4f87-94cf-c970a26e6549))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 220.345 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 69f2dff0-d15f-4db1-8bdf-de898e66bd41)
+    (property "Reference" "SW1" (at 220.345 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 220.345 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 220.345 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 220.345 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f275ae76-d937-4172-8b8d-8841191f6fcf))
+    (pin "2" (uuid 13a3c002-ebae-4f60-9228-167a94863562))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 167.005 78.74 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6b723ef6-8a54-4f0e-b9a8-38843cb3f772)
+    (property "Reference" "SW1" (at 167.005 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 167.005 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 167.005 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.005 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0cdb7efd-8479-49e2-92cc-14c207e2b731))
+    (pin "2" (uuid 06e0e97f-bb4e-4846-98b6-b3a13dcfcfd0))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 167.005 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6d85f945-b6d9-4569-b112-50243c9e04d8)
+    (property "Reference" "SW1" (at 167.005 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 167.005 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 167.005 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.005 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c528989-33c9-44dc-9713-74b27b6b8aca))
+    (pin "2" (uuid 532ce387-0aff-41c2-8897-5bee3c1a34f9))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 78.74 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 773409a8-2d07-457a-87c9-5fe604104b54)
+    (property "Reference" "SW1" (at 78.74 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 78.74 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8ec782c6-14aa-4ae2-b2ee-a8cb6edb33be))
+    (pin "2" (uuid 74ecb3b1-8cff-4052-8755-b78e060acdb5))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 220.345 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7913aebe-1ca4-471e-a27d-fec9eaaceddf)
+    (property "Reference" "SW1" (at 220.345 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 220.345 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 220.345 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 220.345 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 976be6ac-5803-4013-b98c-162f5dcfd1c7))
+    (pin "2" (uuid 4cf6e5f1-44ab-4608-8aa7-e8ae93043cb1))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW30") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 78.74 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8354ec4e-6b5a-48b2-beeb-918a42237157)
+    (property "Reference" "SW1" (at 78.74 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 78.74 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 74030da0-fd51-48f3-bd05-402603628d6d))
+    (pin "2" (uuid c7723897-d5f6-4dfc-9c28-c7e98d416d6b))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 184.785 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8b9e7a04-ecc8-4bb5-83d8-402a55d79e71)
+    (property "Reference" "SW1" (at 184.785 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 184.785 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 184.785 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.785 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 256622b2-1471-4227-9d8d-8da39c9d1cfd))
+    (pin "2" (uuid cbabbdc1-1ee5-486b-8715-76fed3540ac9))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 96.52 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8bd119ff-9bee-45d0-9167-f75f580486da)
+    (property "Reference" "SW1" (at 96.52 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 96.52 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 96.52 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3f08d82-5306-44c6-b3a7-0f7a07168725))
+    (pin "2" (uuid fb92952c-7fde-45df-a096-2ce307fc8739))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 96.52 78.74 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a7fdec43-3a6e-4084-9a16-9d241b958da9)
+    (property "Reference" "SW1" (at 96.52 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 96.52 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 96.52 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cf930952-5da9-457d-9cce-22d5347d88a5))
+    (pin "2" (uuid 40e68098-252d-444f-9efe-a1d73b9c15d3))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW32") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 96.52 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a9fca086-5539-43d0-8275-774c4eb2a906)
+    (property "Reference" "SW1" (at 96.52 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 96.52 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 96.52 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3819b6a3-6f29-41b8-b247-f8983b8d4b57))
+    (pin "2" (uuid cbe3ca10-6c79-4559-8e7a-53f6be9d6957))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 167.005 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b447edf4-ede6-4df2-ae2d-7b0697ada562)
+    (property "Reference" "SW1" (at 167.005 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 167.005 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 167.005 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.005 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ab1cf6b-07eb-48ff-a904-9f9c8d4a988f))
+    (pin "2" (uuid 6fc48d7f-eb66-46e7-9d6d-b91c0a0d0dd2))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 60.96 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b6746b8b-242b-420f-88bb-2837609d9f50)
+    (property "Reference" "SW1" (at 60.96 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 60.96 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 22c6d68c-d055-4086-8af6-b1fe0eb7a8a2))
+    (pin "2" (uuid 2d61048c-d414-4856-94f6-f88b98760a38))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 43.18 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bb82cbcf-f31f-4a0d-9dd5-00b2987b9af9)
+    (property "Reference" "SW1" (at 43.18 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 43.18 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 43.18 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2819646d-06b8-4b23-9014-62c633292b4b))
+    (pin "2" (uuid 2d65139a-eec0-4b4d-a222-683b6372392c))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 184.785 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c7a630b5-bb08-4a5e-bcb6-d74427208a12)
+    (property "Reference" "SW1" (at 184.785 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 184.785 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 184.785 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.785 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 10fefaa0-3803-4841-ac60-67630422b720))
+    (pin "2" (uuid 06687772-e388-4921-aeec-585bffe2135a))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 149.225 48.26 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ca164246-8829-4eb3-93dd-acae08019099)
+    (property "Reference" "SW1" (at 149.225 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 149.225 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 149.225 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.225 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3b85d71d-fe8d-4939-993b-d730201b8ced))
+    (pin "2" (uuid 9a572fc6-9809-44fe-92a2-9cc4afe85a1a))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 167.005 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid db005dc3-818b-426b-be77-98473cddaa2a)
+    (property "Reference" "SW1" (at 167.005 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 167.005 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 167.005 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.005 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4d74293e-b576-4935-84b1-6a1ba2a4f7d8))
+    (pin "2" (uuid 3333d73c-b856-4bb9-9e1f-8fda74af200f))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 43.18 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e9d9127b-e001-4793-be66-5363c4b8e502)
+    (property "Reference" "SW1" (at 43.18 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 43.18 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 43.18 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f7793bac-17d9-41d1-a4e4-faf0720ba1df))
+    (pin "2" (uuid 5583fb01-7170-407e-8e2d-dc57a729cd32))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 220.345 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ef21b720-9bdc-4d23-ba55-4fdb35ecb631)
+    (property "Reference" "SW1" (at 220.345 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 220.345 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 220.345 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 220.345 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 955858df-86a5-4b0b-a35c-22abf5948b45))
+    (pin "2" (uuid 82acec68-87d0-4b1c-b0cb-91d9ec723681))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 25.4 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f7477e6a-96e6-4fcc-a965-b4e92e45f2c7)
+    (property "Reference" "SW1" (at 25.4 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 25.4 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 25.4 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 25.4 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1799b72f-82a7-4c0c-9ce3-2dcc91cab44e))
+    (pin "2" (uuid 09ab706b-4a1d-4064-bb6d-84170f57eafe))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 202.565 33.02 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f84f5cbf-b6b6-4d30-9dd7-45b2b82dddb6)
+    (property "Reference" "SW1" (at 202.565 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 202.565 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "plate_cutouts:alps_switch_cutout" (at 202.565 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 202.565 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 82f1f962-0b2d-424a-ac5c-558cda51407d))
+    (pin "2" (uuid 7ee1223f-7d7e-464e-b77a-74f07055d493))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_alps"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
