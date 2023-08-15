@@ -3,19 +3,17 @@
 
 Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 
-## Changes from the original
-* MCU: STM32F072CBT6 (128Kb flash, built-in DFU bootloader, crystal-less)
-* RGB leds changed to SK6812 mini for voltage tolerance
-* Roundeded PCB outline
-* MX hotswap/Alps
+## Design goals
+* Drop-in replacement to existing cases
+* MCU: STM32F072CBT6 (128Kb flash, built-in DFU bootloader) to allow more firmware features
+* MX hotswap, Alps support
 
 ## Firmware
 * [QMK config](https://github.com/sporkus/qmk_userspace/tree/main/keyboards/sporkus/le_chiffre_32)
 * [zmk config](https://github.com/petejohanson/le-chiffre-stm32-zmk-config)
 * [pre-compiled vial](./firmware/le_chiffre_32_vial.bin)
 
-## Reset buttons
-* DFU button is placed in the legacy reset button position. Plug in the board or push the reset button while DFU button is held down to enable DFU mode.
+To flash initially using dfu-util or qmk toolbox, plug in the board or push the reset button while DFU button is held down.
 
 ## Fabrication
 * verified production files can be found [here](./pcb_production)
