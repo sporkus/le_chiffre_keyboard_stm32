@@ -38,7 +38,7 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k7
       with:
         config: kicad/plate/config.kibot.yaml
-        dir: 'plate'
+        dir: 'plate_files/plate_mx'
         board: 'kicad/plate/LeChiffre_Plate.kicad_pcb'
         verbose: 0
       continue-on-error: true
@@ -47,12 +47,21 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k7
       with:
         config: kicad/plate_alps/config.kibot.yaml
-        dir: 'plate'
+        dir: 'plate_files/plate_alps'
         board: 'kicad/plate_alps/plate_alps.kicad_pcb'
+        verbose: 0
+      continue-on-error: true
+
+    - name: generate alps+mx plate files
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: kicad/plate_alps_mx/config.kibot.yaml
+        dir: 'plate_files/plate_alps_mx'
+        board: 'kicad/plate_alps_mx/plate_alps_mx.kicad_pcb'
         verbose: 0
       continue-on-error: true
 
     - uses: EndBug/add-and-commit@v9
       with:
-        add: 'plate documentation'
+        add: 'plate_files documentation'
         message: '[kibot]'

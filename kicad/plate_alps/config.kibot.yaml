@@ -27,16 +27,6 @@ outputs:
       show_components: none
       dpi: 600
 
-  - name: pcb_bot_g
-    comment: "2D Renders - bottom"
-    type: pcbdraw
-    options:
-      output: "%f-%i.%x"
-      format: jpg
-      bottom: True
-      show_components: none
-      dpi: 600
-
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
