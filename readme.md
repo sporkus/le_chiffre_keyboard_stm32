@@ -21,6 +21,10 @@ To flash initially using dfu-util or qmk toolbox, plug in the board or push the 
 * SK6812 mini 3535 has placement marker on "Data In" pin. Don't confuse it with sk6812-HS mini or sk6812 mini-E.
 
 ## Misc
+#### 3D assembly preview
+* [online viewer](https://3dviewer.net/#model=https://github.com/sporkus/le_chiffre_keyboard_stm32/blob/main/documentation/stm32_hotswap_chiffre-3D.step)
+* [step assembly](./documentation/stm32_hotswap_chiffre-3D.step)
+
 
 #### PCB renders
 ![](./documentation/stm32_hotswap_chiffre-top.jpg)
