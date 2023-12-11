@@ -28,7 +28,7 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k7
       with:
         config: kicad/pcb/config.kibot.yaml
-        dir: 'documentation'
+        dir: 'pcbs'
         schema: 'kicad/pcb/stm32_hotswap_chiffre.kicad_sch'
         board: 'kicad/pcb/stm32_hotswap_chiffre.kicad_pcb'
         verbose: 0
@@ -59,17 +59,27 @@ jobs:
         dir: 'plate_files/plate_alps_mx'
         board: 'kicad/plate_alps_mx/plate_alps_mx.kicad_pcb'
         verbose: 0
+
       continue-on-error: true
+
+    - name: Archive PCB Gerber Zip
+      uses: actions/upload-artifact@v3
+      with:
+        name: pcbs
+        path: pcbs/*-gerber.zip
+          
     - name: Archive Alps Plate ZIP
       uses: actions/upload-artifact@v3
       with:
         name: plate_alps
         path: plate_files/plate_alps/plate_alps-gerber.zip
+          
     - name: Archive Alps/MX Plate ZIP
       uses: actions/upload-artifact@v3
       with:
         name: plate_alps_mx
         path: plate_files/plate_alps_mx/plate_alps_mx-gerber.zip
+
     - name: Archive MX Plate ZIP
       uses: actions/upload-artifact@v3
       with:
