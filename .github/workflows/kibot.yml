@@ -60,8 +60,18 @@ jobs:
         board: 'kicad/plate_alps_mx/plate_alps_mx.kicad_pcb'
         verbose: 0
       continue-on-error: true
-
-    - uses: EndBug/add-and-commit@v9
+    - name: Archive Alps Plate ZIP
+      uses: actions/upload-artifact@v2
       with:
-        add: 'plate_files documentation'
-        message: '[kibot]'
+        name: plate_alps
+        path: plate_files/plate_alps/plate_alps-gerber.zip
+    - name: Archive Alps/MX Plate ZIP
+      uses: actions/upload-artifact@v2
+      with:
+        name: plate_alps_mx
+        path: plate_files/plate_alps_mx/plate_alps_mx-gerber.zip
+    - name: Archive MX Plate ZIP
+      uses: actions/upload-artifact@v2
+      with:
+        name: plate_mx
+        path: plate_files/plate_mx/plate_mx-gerber.zip
