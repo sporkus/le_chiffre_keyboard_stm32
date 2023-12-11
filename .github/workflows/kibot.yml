@@ -61,17 +61,17 @@ jobs:
         verbose: 0
       continue-on-error: true
     - name: Archive Alps Plate ZIP
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: plate_alps
         path: plate_files/plate_alps/plate_alps-gerber.zip
     - name: Archive Alps/MX Plate ZIP
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: plate_alps_mx
         path: plate_files/plate_alps_mx/plate_alps_mx-gerber.zip
     - name: Archive MX Plate ZIP
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: plate_mx
         path: plate_files/plate_mx/LeChiffre_Plate-gerber.zip
