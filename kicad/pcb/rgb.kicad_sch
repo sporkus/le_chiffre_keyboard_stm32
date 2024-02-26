@@ -675,7 +675,7 @@
   (symbol (lib_id "LeChiffre-rescue:Conn_01x03_Female-Connector") (at 52.07 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a40d821-f48d-4a24-8234-c5879b77a1e0)
-    (property "Reference" "J?" (at 52.07 92.71 0)
+    (property "Reference" "J101" (at 52.07 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Female" (at 55.88 97.79 0)
@@ -695,9 +695,6 @@
     (pin "3" (uuid 73a3ea0b-888a-44b6-b35d-0108a9771e9c))
     (instances
       (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "J?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "J101") (unit 1)
         )
@@ -806,7 +803,7 @@
   (symbol (lib_id "power:GND") (at 90.17 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67907233-2cde-4a42-b822-428963137bca)
-    (property "Reference" "#PWR?" (at 90.17 100.33 0)
+    (property "Reference" "#PWR0106" (at 90.17 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 97.79 0)
@@ -821,9 +818,6 @@
     (pin "1" (uuid 6ce1d371-2e18-4bdf-bd5b-2f6fc58519ba))
     (instances
       (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0106") (unit 1)
         )
@@ -1045,7 +1039,7 @@
   (symbol (lib_id "power:GND") (at 57.15 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4e40e42-2db4-4226-9c65-90e7f69d40ac)
-    (property "Reference" "#PWR?" (at 57.15 95.25 0)
+    (property "Reference" "#PWR0105" (at 57.15 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 92.71 0)
@@ -1060,9 +1054,6 @@
     (pin "1" (uuid 0bbc6ae6-28a4-430e-af6b-d248dbcb5ce3))
     (instances
       (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0105") (unit 1)
         )
@@ -1103,7 +1094,7 @@
   (symbol (lib_id "power:GND") (at 80.01 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e58898fc-4bb3-4190-8def-abeea6a43d05)
-    (property "Reference" "#PWR?" (at 80.01 72.39 0)
+    (property "Reference" "#PWR0102" (at 80.01 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 69.85 0)
@@ -1118,9 +1109,6 @@
     (pin "1" (uuid 63b8ac22-b112-4b66-b3a1-0a16bf32e6e8))
     (instances
       (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0102") (unit 1)
         )
@@ -1136,7 +1124,7 @@
   (symbol (lib_id "power:GND") (at 72.39 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f175e8c4-9786-44df-8e13-9a3ca9a91438)
-    (property "Reference" "#PWR?" (at 72.39 100.33 0)
+    (property "Reference" "#PWR020" (at 72.39 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 97.79 0)
@@ -1151,9 +1139,6 @@
     (pin "1" (uuid aa871bee-078e-4985-809d-2310aaee7e37))
     (instances
       (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR020") (unit 1)
         )
