@@ -1,0 +1,49 @@
+kibot:
+  version: 1
+
+preflight:
+  fill_zones: true
+
+outputs:
+  - name: edge_cut
+    comment: PCB edge cut
+    type: dxf
+    options:
+      metric_units: true
+      polygon_mode: false
+      use_aux_axis_as_origin: true
+    layers:
+       - Edge.Cuts
+
+  - name: schematic
+    comment: "pdf schematic"
+    type: pdf_sch_print
+
+  - name: 'ibom'
+    comment: "interactive BOM html"
+    type: ibom
+
+  - name: 'step'
+    comment: "PCB STEP file"
+    type: step
+    options:
+      min_distance: 0.01
+
+  - name: pcb_top_g
+    comment: "2D Renders - top"
+    type: pcbdraw
+    options:
+      output: "%f-%i.%x"
+      format: jpg
+      show_components: none
+      dpi: 600
+
+  - name: pcb_bot_g
+    comment: "2D Renders - bottom"
+    type: pcbdraw
+    options:
+      output: "%f-%i.%x"
+      format: jpg
+      bottom: True
+      show_components: none
+      dpi: 600
