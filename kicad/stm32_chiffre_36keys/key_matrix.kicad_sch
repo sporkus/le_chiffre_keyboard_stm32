@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Hotswap Chiffre")
-    (date "2023-07-13")
-    (rev "0.2.2")
+    (title "Hotswap Chiffre (36 key)")
+    (date "2024-03-06")
+    (rev "0.3")
     (company "sporkus")
   )
 
@@ -414,9 +414,6 @@
   (junction (at 70.7366 167.085) (diameter 0) (color 0 0 0 0)
     (uuid 1020619c-a9e6-4fce-a6ba-89d643a76941)
   )
-  (junction (at 161.813 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid 11239035-846b-4192-af5e-942e46565677)
-  )
   (junction (at 191.77 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 14ff6080-3796-469c-b51a-0fced9d46d67)
   )
@@ -425,9 +422,6 @@
   )
   (junction (at 160.02 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 177a3f82-6e3e-4033-985d-afd31d92934c)
-  )
-  (junction (at 116.84 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid 17dd0a5a-5898-435d-8770-8b6aff9ad866)
   )
   (junction (at 127 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 17fddc00-96cb-48fb-84e2-e534320e2bb5)
@@ -440,6 +434,9 @@
   )
   (junction (at 60.96 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 27464689-6755-4893-9f6b-dad4e1a20615)
+  )
+  (junction (at 81.28 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid 27fc660c-dc2b-47a9-8ef8-f68f6b355e34)
   )
   (junction (at 127 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 2b2c11e1-1973-487f-8a4c-9764dc244a58)
@@ -459,6 +456,9 @@
   (junction (at 149.86 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 36d18682-25a2-494a-96c3-6527cd9c93c2)
   )
+  (junction (at 86.2186 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 36f56906-f2c3-4c07-af6e-cbae9202bd35)
+  )
   (junction (at 113.03 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 392b4012-79d9-4177-a8c2-df93e6ba2b0f)
   )
@@ -468,8 +468,8 @@
   (junction (at 71.12 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 3bd3c198-76aa-43b7-97b1-fc42e612f0b2)
   )
-  (junction (at 173.99 109.1694) (diameter 0) (color 0 0 0 0)
-    (uuid 3d68a916-171d-4ec3-a7ba-5cd6734d0e8c)
+  (junction (at 201.93 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid 3f779879-4948-4dc1-acbf-5f924e80da6b)
   )
   (junction (at 191.77 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 40c7eb38-a056-4ac3-8b30-feec320f008e)
@@ -480,8 +480,8 @@
   (junction (at 177.8 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 476ea95e-0f6e-45fc-a6e7-15bb45489389)
   )
-  (junction (at 100.8642 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid 489ace32-fded-4ce8-9693-d064b224c568)
+  (junction (at 146.05 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid 49181e77-f70d-489a-ae31-bb61abf93f8a)
   )
   (junction (at 187.96 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 49e550d4-3435-4c54-95a2-916c9daedf69)
@@ -489,8 +489,11 @@
   (junction (at 99.06 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 4b067f1f-0f03-4044-b297-cdadd6296ddf)
   )
-  (junction (at 187.96 109.1694) (diameter 0) (color 0 0 0 0)
-    (uuid 50eeabe4-bebe-46e3-92da-967bd3da1e63)
+  (junction (at 96.52 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 54096cdd-fdb4-4f7e-a5d5-1a22a25f0df7)
+  )
+  (junction (at 189.2412 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 54259ca1-78d2-4e20-bcdc-d9fcacaa98cf)
   )
   (junction (at 215.9 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 5fcf893d-dada-4806-88db-c7c2c8975c13)
@@ -516,17 +519,26 @@
   (junction (at 163.83 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 7e8dad2a-aaf8-4225-ad72-1aeba5cfa488)
   )
+  (junction (at 113.03 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid 80768aae-c69c-4a3e-8e20-6199e3b11064)
+  )
+  (junction (at 163.83 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid 82d4dc82-8fd6-47a4-9ac0-60ccd75c0531)
+  )
   (junction (at 88.9 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 8766e652-d6ef-4a04-a21f-c91d4525bca0)
   )
-  (junction (at 88.9 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid 915a6322-911c-49dc-851d-9fc695c31176)
+  (junction (at 113.03 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid 93621895-0f08-45bf-b2b8-b85bac3c408a)
+  )
+  (junction (at 99.06 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid 9b827c79-5a73-4193-a851-d2972b86600b)
+  )
+  (junction (at 116.84 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 9fbd9901-6ee9-4475-ba07-9e78030b29d1)
   )
   (junction (at 127 109.22) (diameter 0) (color 0 0 0 0)
     (uuid a1599db7-0316-4359-9fad-a807863b2ebc)
-  )
-  (junction (at 177.8 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid a621ba9a-3817-48fc-85c9-fb7b7e276a6f)
   )
   (junction (at 60.96 97.79) (diameter 0) (color 0 0 0 0)
     (uuid aa74c611-2c8c-4b17-b120-54ff1b215080)
@@ -537,14 +549,8 @@
   (junction (at 149.86 59.69) (diameter 0) (color 0 0 0 0)
     (uuid ad95b730-63e4-4b55-811d-8125a09757ed)
   )
-  (junction (at 116.84 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid af186f78-9550-43f8-861d-c14fe7ad80b2)
-  )
   (junction (at 191.77 59.69) (diameter 0) (color 0 0 0 0)
     (uuid b8857a85-ea2c-458d-8e7d-46a4eda8adb1)
-  )
-  (junction (at 149.86 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid be74c68c-f8c0-4ca1-976b-a24c6df3b548)
   )
   (junction (at 74.93 78.74) (diameter 0) (color 0 0 0 0)
     (uuid c2053b86-8cd0-450d-a370-100ee86da36b)
@@ -555,6 +561,9 @@
   (junction (at 88.9 59.69) (diameter 0) (color 0 0 0 0)
     (uuid c364208a-2f96-49c4-9b8d-9fbcd1a7722a)
   )
+  (junction (at 199.39 109.1694) (diameter 0) (color 0 0 0 0)
+    (uuid c4b04733-0b08-481f-b413-0e2bcb8c852e)
+  )
   (junction (at 85.09 52.07) (diameter 0) (color 0 0 0 0)
     (uuid c6011ee9-66a4-4751-a7f5-f89a09fd5cae)
   )
@@ -563,6 +572,9 @@
   )
   (junction (at 116.84 59.69) (diameter 0) (color 0 0 0 0)
     (uuid d046f89a-0893-443e-809c-71a98ec457ef)
+  )
+  (junction (at 191.77 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid d0b3be38-462c-40af-9a60-fe1cef32e035)
   )
   (junction (at 173.99 52.07) (diameter 0) (color 0 0 0 0)
     (uuid d0b68b54-2e4f-4220-a395-9977c9dc0744)
@@ -588,15 +600,6 @@
   (junction (at 149.86 97.79) (diameter 0) (color 0 0 0 0)
     (uuid db2631d1-5f5e-49b7-97b4-fafe1ffa2c32)
   )
-  (junction (at 113.03 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid dda2829e-5c10-4967-aa10-79381005a821)
-  )
-  (junction (at 99.06 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid dfe77c6c-05a9-4ab5-b4f0-0d0ab194cf4f)
-  )
-  (junction (at 88.9 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid e3f05b70-f018-4ef0-9fca-00cccdb81d26)
-  )
   (junction (at 127 52.07) (diameter 0) (color 0 0 0 0)
     (uuid e4cda596-9509-41ee-86f7-a71b72c1ed9b)
   )
@@ -607,7 +610,7 @@
     (uuid f3f591d5-6809-4b0b-a8cf-5450b7701cca)
   )
   (junction (at 149.86 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid f6f738c7-0ec1-4d4f-b291-42aaa2830c17)
+    (uuid f8900352-4996-4e4c-90ab-b45b4b08beb4)
   )
   (junction (at 163.83 78.74) (diameter 0) (color 0 0 0 0)
     (uuid f94423a0-5e34-4188-bed2-7b61ef210359)
@@ -643,21 +646,17 @@
     (stroke (width 0) (type default))
     (uuid 06c06b2b-eb63-49fa-bcfd-8ce2800dc3a0)
   )
-  (wire (pts (xy 187.96 109.1694) (xy 187.96 109.22))
+  (wire (pts (xy 199.4012 109.1694) (xy 199.4012 109.22))
     (stroke (width 0) (type default))
     (uuid 07358546-22f8-423e-b0c1-d74dfb9d611c)
-  )
-  (wire (pts (xy 175.5018 109.22) (xy 177.8 109.22))
-    (stroke (width 0) (type default))
-    (uuid 079b4c02-8f30-496d-828d-449b2619fef8)
   )
   (wire (pts (xy 102.87 97.79) (xy 116.84 97.79))
     (stroke (width 0) (type default))
     (uuid 079b988c-a201-49db-9125-c3013b3a0e36)
   )
-  (wire (pts (xy 149.8488 128.27) (xy 147.3362 128.27))
+  (wire (pts (xy 113.03 109.22) (xy 116.84 109.22))
     (stroke (width 0) (type default))
-    (uuid 0da20df0-70cd-4e19-8b03-5643f1d6706d)
+    (uuid 0897e86e-6318-4270-9ed7-66e789819598)
   )
   (bus (pts (xy 92.3266 180.42) (xy 92.3266 181.69))
     (stroke (width 0) (type default))
@@ -672,10 +671,6 @@
     (stroke (width 0) (type default))
     (uuid 1454a13a-cc73-42d6-b44d-f79dff1aa550)
   )
-  (wire (pts (xy 113.098 120.4846) (xy 113.098 90.17))
-    (stroke (width 0) (type default))
-    (uuid 148063aa-2718-4e4e-acbb-76d6c1fd3b6b)
-  )
   (wire (pts (xy 160.02 52.07) (xy 160.02 71.12))
     (stroke (width 0) (type default))
     (uuid 1cdf9f27-db3a-4557-b6bc-2e1bde4cc7f1)
@@ -684,13 +679,21 @@
     (stroke (width 0) (type default))
     (uuid 1e541d17-0d45-45b1-9deb-d1394e188059)
   )
-  (wire (pts (xy 173.99 109.1694) (xy 173.99 109.22))
+  (wire (pts (xy 168.4288 125.73) (xy 168.4288 109.2207))
     (stroke (width 0) (type default))
-    (uuid 203bd05d-d5cd-4388-8b02-6ecb1e8bd404)
+    (uuid 23bf403c-1dd0-445e-b90e-1f0e50e8eac2)
   )
   (wire (pts (xy 108.8366 180.42) (xy 125.9816 180.42))
     (stroke (width 0) (type default))
     (uuid 25597f74-06b5-41a0-bfe4-2e16e6517d95)
+  )
+  (wire (pts (xy 201.93 128.27) (xy 201.93 90.17))
+    (stroke (width 0) (type default))
+    (uuid 2679df81-75db-4c88-8819-9d32c7c23618)
+  )
+  (wire (pts (xy 179.07 125.73) (xy 179.07 128.27))
+    (stroke (width 0) (type default))
+    (uuid 28ad861c-f0a4-445d-b585-d013e09fb2e3)
   )
   (wire (pts (xy 191.77 97.79) (xy 205.74 97.79))
     (stroke (width 0) (type default))
@@ -700,33 +703,41 @@
     (stroke (width 0) (type default))
     (uuid 2b8390e9-e630-4626-b0a0-592cdf88b4b2)
   )
-  (wire (pts (xy 113.098 90.17) (xy 113.03 90.17))
+  (wire (pts (xy 110.49 105.41) (xy 110.49 120.65))
     (stroke (width 0) (type default))
-    (uuid 2c57d460-4657-49aa-93b5-86d899cf7928)
+    (uuid 2e1d80fb-e3aa-406b-abcc-71c73956fd18)
+  )
+  (wire (pts (xy 160.02 100.33) (xy 160.02 109.22))
+    (stroke (width 0) (type default))
+    (uuid 2ebec507-4aab-45c6-b69b-bf9ead70af8b)
   )
   (wire (pts (xy 85.09 71.12) (xy 85.09 90.17))
     (stroke (width 0) (type default))
     (uuid 347677ac-7bae-4899-aadf-af82a4ddcb10)
   )
-  (wire (pts (xy 99.06 90.17) (xy 99.06 109.22))
+  (wire (pts (xy 187.96 90.17) (xy 187.96 100.33))
+    (stroke (width 0) (type default))
+    (uuid 3673d5b5-e6c9-4a38-b336-f593ea62d169)
+  )
+  (wire (pts (xy 193.0512 90.17) (xy 191.77 90.17))
+    (stroke (width 0) (type default))
+    (uuid 367e706a-8c96-4b6a-b6f2-ef8d963b4848)
+  )
+  (wire (pts (xy 99.06 90.17) (xy 99.06 101.6))
     (stroke (width 0) (type default))
     (uuid 39144bba-3ff3-40b1-91ad-ef451de62aa2)
   )
-  (wire (pts (xy 173.99 90.17) (xy 173.99 109.1694))
+  (wire (pts (xy 173.99 90.17) (xy 173.99 100.33))
     (stroke (width 0) (type default))
     (uuid 3c6c218a-d486-4536-b7f0-d40c5a3c7901)
   )
-  (wire (pts (xy 160.02 109.22) (xy 160.02 128.27))
+  (wire (pts (xy 160.02 109.22) (xy 160.02 125.73))
     (stroke (width 0) (type default))
     (uuid 3f0c136e-124a-4861-9229-3593065cad06)
   )
   (wire (pts (xy 77.0866 177.88) (xy 82.1666 177.88))
     (stroke (width 0) (type default))
     (uuid 4289d479-73db-44d9-bbfe-fbbc4f42b12f)
-  )
-  (wire (pts (xy 100.8642 128.1046) (xy 100.8642 116.84))
-    (stroke (width 0) (type default))
-    (uuid 43a88c00-b838-488f-acca-88da304c3814)
   )
   (wire (pts (xy 71.12 71.12) (xy 71.12 90.17))
     (stroke (width 0) (type default))
@@ -740,13 +751,13 @@
     (stroke (width 0) (type default))
     (uuid 46313b08-1662-4412-a378-44cc229d42e7)
   )
+  (wire (pts (xy 191.77 90.17) (xy 187.96 90.17))
+    (stroke (width 0) (type default))
+    (uuid 48937f9e-7175-4056-bff7-59b95433212b)
+  )
   (wire (pts (xy 173.99 52.07) (xy 173.99 71.12))
     (stroke (width 0) (type default))
     (uuid 4a84ebd3-1976-4a2c-a246-1243c807ac60)
-  )
-  (wire (pts (xy 174.0468 109.1694) (xy 173.99 109.1694))
-    (stroke (width 0) (type default))
-    (uuid 4af11674-5af3-4ec0-a01c-6569d0c48777)
   )
   (wire (pts (xy 70.7366 182.96) (xy 70.7366 190.58))
     (stroke (width 0) (type default))
@@ -760,38 +771,38 @@
     (stroke (width 0) (type default))
     (uuid 4cae0bcf-cc58-46c5-a29b-07635b13de5d)
   )
-  (wire (pts (xy 116.84 128.27) (xy 114.5449 128.27))
+  (wire (pts (xy 185.42 109.22) (xy 189.2412 109.22))
     (stroke (width 0) (type default))
-    (uuid 50f317b6-12e0-4e8d-b651-72db704bb5b0)
+    (uuid 4d7db405-32e5-4241-a2b5-06581a74f976)
+  )
+  (wire (pts (xy 179.07 128.27) (xy 201.93 128.27))
+    (stroke (width 0) (type default))
+    (uuid 5019bf1b-e1f5-4b5c-8e35-453e1b83f57e)
+  )
+  (wire (pts (xy 146.05 116.84) (xy 163.83 116.84))
+    (stroke (width 0) (type default))
+    (uuid 529525bf-7ee6-4c03-abda-b4be960bb668)
   )
   (wire (pts (xy 74.93 78.74) (xy 88.9 78.74))
     (stroke (width 0) (type default))
     (uuid 5a0b191b-9b0f-4a94-a61e-7f07e19156d3)
-  )
-  (wire (pts (xy 177.7888 128.2104) (xy 175.5018 128.2104))
-    (stroke (width 0) (type default))
-    (uuid 5b8bfb99-ab98-4662-861d-570f5f0fc976)
   )
   (bus (pts (xy 92.3266 181.69) (xy 89.7866 181.69))
     (stroke (width 0) (type default))
     (uuid 5bda2d7f-9aa8-47ea-af72-132d7f060f25)
   )
 
-  (wire (pts (xy 116.84 116.84) (xy 149.86 116.84))
-    (stroke (width 0) (type default))
-    (uuid 5d63cce4-e835-400e-943a-0e6a72abf08b)
-  )
   (wire (pts (xy 64.3866 182.96) (xy 70.7366 182.96))
     (stroke (width 0) (type default))
     (uuid 5e1844a7-b3e6-4204-a5e6-e9969a4ff9a6)
   )
+  (wire (pts (xy 187.96 100.33) (xy 199.39 100.33))
+    (stroke (width 0) (type default))
+    (uuid 645801cc-adc2-4c22-848f-b7fa03af1942)
+  )
   (wire (pts (xy 108.8366 172.8) (xy 115.1866 172.8))
     (stroke (width 0) (type default))
     (uuid 64cf2586-51f2-434b-8462-6b1e992e28f4)
-  )
-  (wire (pts (xy 147.3362 128.27) (xy 147.3362 109.22))
-    (stroke (width 0) (type default))
-    (uuid 66d490cb-835c-47df-8ea0-569823693a10)
   )
   (wire (pts (xy 113.03 41.91) (xy 113.03 52.07))
     (stroke (width 0) (type default))
@@ -817,7 +828,7 @@
     (stroke (width 0) (type default))
     (uuid 792acd8e-6531-4c8c-809c-413465c7046d)
   )
-  (wire (pts (xy 88.9 116.84) (xy 100.8642 116.84))
+  (wire (pts (xy 81.28 116.84) (xy 99.06 116.84))
     (stroke (width 0) (type default))
     (uuid 79c4aa13-ef3e-4a79-881d-9dd2cbc44c61)
   )
@@ -829,11 +840,11 @@
     (stroke (width 0) (type default))
     (uuid 7b1513e2-aa79-43d4-be16-21c44ac4c8b2)
   )
-  (wire (pts (xy 99.06 109.22) (xy 99.06 128.27))
+  (wire (pts (xy 96.52 109.22) (xy 96.52 128.27))
     (stroke (width 0) (type default))
     (uuid 7b5c46e7-8e1f-4ae3-8423-741822e6c9d8)
   )
-  (wire (pts (xy 55.88 116.84) (xy 88.9 116.84))
+  (wire (pts (xy 55.88 116.84) (xy 81.28 116.84))
     (stroke (width 0) (type default))
     (uuid 7d677140-baaa-4b17-bfe4-3e33c4fa48ca)
   )
@@ -857,7 +868,7 @@
     (stroke (width 0) (type default))
     (uuid 83569559-1298-4b20-8bb2-a2ef4aeb6be6)
   )
-  (wire (pts (xy 187.9488 109.1694) (xy 187.96 109.1694))
+  (wire (pts (xy 199.39 109.1694) (xy 199.4012 109.1694))
     (stroke (width 0) (type default))
     (uuid 85807f89-456b-4e07-8d99-54a3babcd922)
   )
@@ -885,6 +896,10 @@
     (stroke (width 0) (type default))
     (uuid 8bcaddec-710d-4554-bb89-cb81b10b1199)
   )
+  (wire (pts (xy 113.03 90.17) (xy 113.03 105.41))
+    (stroke (width 0) (type default))
+    (uuid 8bfb97e1-e53c-4aab-bf41-e9fe0d3647b1)
+  )
   (wire (pts (xy 64.3866 172.165) (xy 64.3866 167.085))
     (stroke (width 0) (type default))
     (uuid 8e658852-6fe6-4e83-941f-a0a4c7599fbb)
@@ -905,7 +920,11 @@
     (stroke (width 0) (type default))
     (uuid 92a30859-7353-4167-a59f-1e3d7b900b72)
   )
-  (wire (pts (xy 173.99 109.22) (xy 160.02 109.22))
+  (wire (pts (xy 163.83 116.84) (xy 185.42 116.84))
+    (stroke (width 0) (type default))
+    (uuid 92e06b93-051b-4a87-b7c9-8a802e604369)
+  )
+  (wire (pts (xy 173.99 100.33) (xy 160.02 100.33))
     (stroke (width 0) (type default))
     (uuid 95315844-51fa-4e85-ad1f-82d460ebfd40)
   )
@@ -913,13 +932,37 @@
     (stroke (width 0) (type default))
     (uuid 96d63c87-b73a-41b8-81f9-599975b21cd2)
   )
+  (wire (pts (xy 110.49 120.65) (xy 111.76 120.65))
+    (stroke (width 0) (type default))
+    (uuid 991a2c3e-8892-43a5-a801-4542f9204e01)
+  )
+  (wire (pts (xy 81.28 109.22) (xy 86.2186 109.22))
+    (stroke (width 0) (type default))
+    (uuid 9b61f5ba-c42a-4488-b89a-79397047a2ba)
+  )
+  (wire (pts (xy 113.03 116.84) (xy 146.05 116.84))
+    (stroke (width 0) (type default))
+    (uuid 9bf0b78c-c31b-424e-ad8d-a065d5e9bd12)
+  )
   (wire (pts (xy 173.99 71.12) (xy 173.99 90.17))
     (stroke (width 0) (type default))
     (uuid a028db33-b154-4e75-bdea-6430a7fe9507)
   )
-  (wire (pts (xy 187.9488 128.27) (xy 187.9488 109.1694))
+  (wire (pts (xy 96.52 101.6) (xy 99.06 101.6))
     (stroke (width 0) (type default))
-    (uuid a4536402-386a-4230-b42c-89ef7e58ffcb)
+    (uuid a27d6c19-097f-4413-9e8c-bc773ef99591)
+  )
+  (wire (pts (xy 168.91 125.73) (xy 168.4288 125.73))
+    (stroke (width 0) (type default))
+    (uuid a53f0767-e3ac-43b5-ab6b-b2ee1e937bc0)
+  )
+  (wire (pts (xy 167.0931 109.2207) (xy 167.0931 109.22))
+    (stroke (width 0) (type default))
+    (uuid a5e79242-2288-4e19-8569-6b2e68aca030)
+  )
+  (wire (pts (xy 167.0931 109.22) (xy 163.83 109.22))
+    (stroke (width 0) (type default))
+    (uuid a7cae625-d170-4b8d-a312-482f0a76aa0e)
   )
   (wire (pts (xy 116.84 97.79) (xy 149.86 97.79))
     (stroke (width 0) (type default))
@@ -929,6 +972,10 @@
     (stroke (width 0) (type default))
     (uuid aa051da6-8258-4bcb-969b-76076ba752b1)
   )
+  (wire (pts (xy 113.03 105.41) (xy 110.49 105.41))
+    (stroke (width 0) (type default))
+    (uuid ae16a228-e3b0-4c75-8556-33c136cfe1e8)
+  )
   (wire (pts (xy 85.09 41.91) (xy 85.09 52.07))
     (stroke (width 0) (type default))
     (uuid af0aee73-d92d-46e5-867c-fbef8f7e2ec1)
@@ -937,29 +984,29 @@
     (stroke (width 0) (type default))
     (uuid af832efb-318e-49fb-a56f-76039799e033)
   )
-  (wire (pts (xy 114.5449 109.22) (xy 116.84 109.22))
+  (wire (pts (xy 101.6 109.22) (xy 101.6 128.27))
     (stroke (width 0) (type default))
-    (uuid af851953-d87f-49df-9d7c-db03acbb9ba4)
+    (uuid afb9b9ac-6af3-4ee0-a3f0-9058f236ada7)
   )
-  (wire (pts (xy 161.813 128.1046) (xy 161.813 116.84))
+  (wire (pts (xy 199.39 100.33) (xy 199.39 109.1694))
     (stroke (width 0) (type default))
-    (uuid afa2e04b-8861-4027-922a-9a49d7a372b6)
+    (uuid b1965f2a-7df7-4aed-bd87-d1db5e7175c1)
   )
-  (wire (pts (xy 149.86 116.84) (xy 161.813 116.84))
-    (stroke (width 0) (type default))
-    (uuid afc52390-687a-4bd9-be08-bc83c66fb86b)
-  )
-  (wire (pts (xy 114.5449 128.27) (xy 114.5449 109.22))
+  (wire (pts (xy 116.84 128.27) (xy 116.84 109.22))
     (stroke (width 0) (type default))
     (uuid b1a12aa8-dff2-4c93-a194-532ec31b7493)
-  )
-  (wire (pts (xy 174.0468 120.4846) (xy 174.0468 109.1694))
-    (stroke (width 0) (type default))
-    (uuid b503c86f-d8ef-485c-ad1c-f905d78c9045)
   )
   (wire (pts (xy 70.7366 167.085) (xy 77.0866 167.085))
     (stroke (width 0) (type default))
     (uuid b5c7cb87-1944-457b-af63-0cf942e319ab)
+  )
+  (wire (pts (xy 149.86 109.22) (xy 149.86 125.73))
+    (stroke (width 0) (type default))
+    (uuid b5ecd77d-f9f5-49fc-8a10-6c5895a756bd)
+  )
+  (wire (pts (xy 99.06 116.84) (xy 113.03 116.84))
+    (stroke (width 0) (type default))
+    (uuid b782c460-89f7-4478-88ec-d992b938aa57)
   )
   (wire (pts (xy 101.8516 182.96) (xy 97.4066 182.96))
     (stroke (width 0) (type default))
@@ -969,15 +1016,11 @@
     (stroke (width 0) (type default))
     (uuid b86f5ad2-291d-4331-bdb7-0082c8b236c4)
   )
-  (wire (pts (xy 147.3362 109.22) (xy 149.86 109.22))
-    (stroke (width 0) (type default))
-    (uuid b87afaac-5ff2-4cc3-9cad-898dd964f6cf)
-  )
   (wire (pts (xy 101.8516 188.04) (xy 101.8516 182.96))
     (stroke (width 0) (type default))
     (uuid b89f60a5-88c5-4806-8eb5-063e012638ea)
   )
-  (wire (pts (xy 86.2186 109.22) (xy 88.9 109.22))
+  (wire (pts (xy 86.2186 109.22) (xy 86.36 109.22))
     (stroke (width 0) (type default))
     (uuid ba5eab32-de86-46a2-8678-d14d6b036426)
   )
@@ -988,6 +1031,10 @@
   (wire (pts (xy 108.8366 188.04) (xy 115.1866 188.04))
     (stroke (width 0) (type default))
     (uuid c01c21ec-ed58-4e3f-9083-77ae070ea02f)
+  )
+  (wire (pts (xy 199.39 109.1694) (xy 199.39 125.73))
+    (stroke (width 0) (type default))
+    (uuid c14edc6e-12e5-4639-ae17-62bb7b4f8528)
   )
   (wire (pts (xy 85.09 52.07) (xy 85.09 71.12))
     (stroke (width 0) (type default))
@@ -1013,14 +1060,6 @@
     (stroke (width 0) (type default))
     (uuid cb2f2e22-4ff0-4694-aede-90e1e6709266)
   )
-  (wire (pts (xy 160.02 128.27) (xy 160.0088 128.27))
-    (stroke (width 0) (type default))
-    (uuid cb7eaf4d-c53c-477d-a8bb-ea1064698005)
-  )
-  (wire (pts (xy 163.8868 128.1046) (xy 161.813 128.1046))
-    (stroke (width 0) (type default))
-    (uuid cd8c5ac7-be41-412c-b411-2c857fd8cdb7)
-  )
   (wire (pts (xy 201.93 41.91) (xy 201.93 52.07))
     (stroke (width 0) (type default))
     (uuid d0698269-3a4b-41fd-b831-97430771fe5e)
@@ -1029,9 +1068,9 @@
     (stroke (width 0) (type default))
     (uuid d1360fc0-fd26-438a-9335-e2c67a9454dc)
   )
-  (wire (pts (xy 102.938 128.1046) (xy 100.8642 128.1046))
+  (wire (pts (xy 189.23 125.73) (xy 189.2412 125.73))
     (stroke (width 0) (type default))
-    (uuid d16c66a0-b2f1-4cd9-8817-09b5f608036f)
+    (uuid d1f29612-b87d-4fa4-b8dd-513141edfaa9)
   )
   (wire (pts (xy 64.3866 167.085) (xy 70.7366 167.085))
     (stroke (width 0) (type default))
@@ -1049,6 +1088,10 @@
     (stroke (width 0) (type default))
     (uuid d524b907-bee2-409a-8d26-394550708a68)
   )
+  (wire (pts (xy 99.06 109.22) (xy 101.6 109.22))
+    (stroke (width 0) (type default))
+    (uuid d6f38979-f2e2-4416-8ea0-2387c7322668)
+  )
   (wire (pts (xy 77.0866 167.085) (xy 77.0866 177.88))
     (stroke (width 0) (type default))
     (uuid d97f1708-a426-4ffb-a8a1-fe81eec9e7cd)
@@ -1057,9 +1100,9 @@
     (stroke (width 0) (type default))
     (uuid de279356-6679-424f-bdce-a6d56bb19ef0)
   )
-  (wire (pts (xy 187.96 90.17) (xy 187.96 109.1694))
+  (wire (pts (xy 168.4288 109.2207) (xy 167.0931 109.2207))
     (stroke (width 0) (type default))
-    (uuid e1e85948-cb98-414a-aff8-dde5cd0dd7f9)
+    (uuid de5ed2bf-c1e3-4839-a73f-797c5a239c00)
   )
   (wire (pts (xy 56.1316 159.465) (xy 70.7366 159.465))
     (stroke (width 0) (type default))
@@ -1069,7 +1112,7 @@
     (stroke (width 0) (type default))
     (uuid e600d354-994b-4e56-8042-4105ec973cbe)
   )
-  (wire (pts (xy 86.2186 128.27) (xy 88.9 128.27))
+  (wire (pts (xy 86.2186 128.27) (xy 86.36 128.27))
     (stroke (width 0) (type default))
     (uuid ec84b81d-7bb9-4838-9067-194b321556f7)
   )
@@ -1077,29 +1120,25 @@
     (stroke (width 0) (type default))
     (uuid ecb45abe-01bd-41d1-85b8-645bd824d7b1)
   )
+  (wire (pts (xy 146.05 109.22) (xy 149.86 109.22))
+    (stroke (width 0) (type default))
+    (uuid ecbfd3ca-a2be-43f3-99a3-a70847f2907b)
+  )
   (wire (pts (xy 60.96 78.74) (xy 74.93 78.74))
     (stroke (width 0) (type default))
     (uuid eeae35ea-a166-492e-9f66-d0225fe88772)
-  )
-  (wire (pts (xy 177.7888 128.27) (xy 177.7888 128.2104))
-    (stroke (width 0) (type default))
-    (uuid ef3761a8-7660-49d8-8dc6-5446be05347d)
-  )
-  (wire (pts (xy 100.8642 116.84) (xy 116.84 116.84))
-    (stroke (width 0) (type default))
-    (uuid f83b8203-4db8-4230-a146-91e468195773)
-  )
-  (wire (pts (xy 161.813 116.84) (xy 177.8 116.84))
-    (stroke (width 0) (type default))
-    (uuid f8488b91-0135-4338-b37f-8791706e1d58)
   )
   (wire (pts (xy 74.93 97.79) (xy 88.9 97.79))
     (stroke (width 0) (type default))
     (uuid f8cb497e-d3cd-4c4a-9e72-bae7189b38c6)
   )
-  (wire (pts (xy 175.5018 128.2104) (xy 175.5018 109.22))
+  (wire (pts (xy 189.2412 125.73) (xy 189.2412 109.22))
     (stroke (width 0) (type default))
     (uuid f901b6c5-9364-424b-8190-2ed82e534447)
+  )
+  (wire (pts (xy 111.76 120.65) (xy 111.76 128.27))
+    (stroke (width 0) (type default))
+    (uuid f9d0eba7-c79a-4aae-bb73-db21286a6934)
   )
   (wire (pts (xy 102.87 59.69) (xy 116.84 59.69))
     (stroke (width 0) (type default))
@@ -1108,6 +1147,18 @@
   (wire (pts (xy 60.96 59.69) (xy 74.93 59.69))
     (stroke (width 0) (type default))
     (uuid fc69fbed-7409-40dc-a303-53362641defc)
+  )
+  (wire (pts (xy 96.52 101.6) (xy 96.52 109.22))
+    (stroke (width 0) (type default))
+    (uuid feb2eda0-e3d5-4fde-b343-19582253a62c)
+  )
+
+  (text_box "SW40 is mapped to 3,8 to avoid changing existing matrix"
+    (at 153.67 129.54 0) (size 21.59 10.16)
+    (stroke (width 0) (type dot))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 8ad46fb7-4df2-499e-8d79-115ae3cdaca1)
   )
 
   (global_label "col7" (shape input) (at 187.96 41.91 90)
@@ -1265,7 +1316,7 @@
     (pin "1" (uuid 89fdee38-e9a8-4121-a769-c5b2dbc0fd1e))
     (pin "2" (uuid a7e0c8fb-9e6d-4ce4-89a6-aad81239c6ca))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D20") (unit 1)
         )
@@ -1299,43 +1350,9 @@
     (pin "1" (uuid c5382542-2126-48f7-a4b3-55a6fcb1774b))
     (pin "2" (uuid d7fd7f48-02e4-4c93-a27e-53b785e30ab4))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D14") (unit 1)
-        )
-      )
-      (project "LeChiffre"
-        (path "/d1959612-acbc-4f43-83d5-42496b0ddebd"
-          (reference "D?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N4148") (at 177.8 113.03 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0cb841f9-f61f-4cbc-a687-123547abf825)
-    (property "Reference" "D34" (at 179.8066 111.8616 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1N4148W" (at 179.8066 114.173 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 173.355 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 177.8 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JlcRotOffset" "-14" (at 177.8 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2465c639-ac86-439c-abac-f863e8cd9166))
-    (pin "2" (uuid 91e99ab5-2c56-455b-bd07-e7d46d583741))
-    (instances
-      (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "D34") (unit 1)
         )
       )
       (project "LeChiffre"
@@ -1367,7 +1384,7 @@
     (pin "1" (uuid 1059c215-ce74-49fe-a57a-29976532d78f))
     (pin "2" (uuid 6ef2d9a3-0f5e-4f94-a4fe-a9663e87411c))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D35") (unit 1)
         )
@@ -1404,7 +1421,7 @@
     (pin "1" (uuid e514ca1c-6791-48ef-bb87-994c65607dd9))
     (pin "2" (uuid a90f7d26-6a12-47c7-ad39-e77c1b54013b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW35") (unit 1)
         )
@@ -1441,7 +1458,7 @@
     (pin "1" (uuid 9351c230-9b44-4694-a429-6eec6e0d8f14))
     (pin "2" (uuid 54507bf4-755d-448d-a641-31c389896a6d))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW22") (unit 1)
         )
@@ -1475,7 +1492,7 @@
     (pin "1" (uuid 7101776d-93b5-473d-a618-5192c11bcdd9))
     (pin "2" (uuid 87a85bd9-fa7e-4610-882b-bf2b691bf40a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D5") (unit 1)
         )
@@ -1509,7 +1526,7 @@
     (pin "1" (uuid 7859ee7f-6dac-4f84-86ec-1e8b239c9dfd))
     (pin "2" (uuid 1660a0ad-8f4c-41f7-8537-dd2e2e21ceff))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D23") (unit 1)
         )
@@ -1543,7 +1560,7 @@
     (pin "1" (uuid ce8d175e-5411-441f-85db-9a0b95e1a42a))
     (pin "2" (uuid 878892db-898b-41d5-897c-0855ca39e845))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D12") (unit 1)
         )
@@ -1580,7 +1597,7 @@
     (pin "1" (uuid e4ded7ed-7720-46f3-9ee9-9a01b8d0e817))
     (pin "2" (uuid b944b3da-4d89-4d45-b9b8-09ad7544dd19))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW19") (unit 1)
         )
@@ -1617,7 +1634,7 @@
     (pin "1" (uuid 29c70ad2-1528-44b1-9409-7809a12bd6a4))
     (pin "2" (uuid 3c2aeb48-1656-4474-93f9-3336030c015a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW15") (unit 1)
         )
@@ -1625,6 +1642,35 @@
       (project "LeChiffre"
         (path "/d1959612-acbc-4f43-83d5-42496b0ddebd"
           (reference "SW?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:1N4148") (at 163.83 113.03 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1fb37be8-0454-4477-8607-f9c22e08a79c)
+    (property "Reference" "D37" (at 166.37 105.41 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1N4148W" (at 163.83 107.95 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 159.385 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 163.83 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JlcRotOffset" "-14" (at 163.83 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 43bc4149-bc08-4b22-b23d-4c018cb0c31e))
+    (pin "2" (uuid a6c92efe-40d9-4705-8720-e41e6f2bb82b))
+    (instances
+      (project "stm32_chiffre_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -1661,7 +1707,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "C9") (unit 1)
         )
@@ -1690,7 +1736,7 @@
     (pin "1" (uuid f9cf16b7-976e-4968-a31d-60ad90a77e41))
     (pin "2" (uuid b6f117fa-a039-4912-a8a0-700acd14a2f1))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D28") (unit 1)
         )
@@ -1703,28 +1749,28 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 149.86 113.03 270) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 146.05 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29ac10ff-7b24-403c-b1f8-4ab95f642c88)
-    (property "Reference" "D33" (at 151.8666 111.8616 90)
+    (property "Reference" "D33" (at 144.78 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4148W" (at 151.8666 114.173 90)
+    (property "Value" "1N4148W" (at 142.24 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 145.415 113.03 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 141.605 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 149.86 113.03 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 146.05 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JlcRotOffset" "-14" (at 149.86 113.03 0)
+    (property "JlcRotOffset" "-14" (at 146.05 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09227261-d3ec-4b78-80e5-4dc3b8999546))
     (pin "2" (uuid 1aecf873-428c-40e5-a9d0-82c67824e550))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D33") (unit 1)
         )
@@ -1761,7 +1807,7 @@
     (pin "1" (uuid e37615f7-bf48-4e13-bb14-048afeedcf0b))
     (pin "2" (uuid 7c440505-a516-4de1-9c82-d1c7d20814c0))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW18") (unit 1)
         )
@@ -1774,31 +1820,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 182.88 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 194.3212 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d3feee4-bca8-4b43-b3fd-af26e02b7281)
-    (property "Reference" "SW34" (at 182.88 101.981 0)
+    (property "Reference" "SW34" (at 194.3212 101.981 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 182.88 104.2924 0)
+    (property "Value" "SW_Push" (at 194.3212 104.2924 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1.25U" (at 182.88 104.14 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1.25U" (at 194.3212 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 182.88 104.14 0)
+    (property "Datasheet" "~" (at 194.3212 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 182.88 109.22 0)
+    (property "LCSC" "" (at 194.3212 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 182.88 109.22 0)
+    (property "exclude_pcba" "true" (at 194.3212 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c736b9b8-8608-40a1-98d5-926cb2f4bd66))
     (pin "2" (uuid a78c618c-2dbf-4914-8a32-6fb764596b16))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW34") (unit 1)
         )
@@ -1835,7 +1881,7 @@
     (pin "1" (uuid 1eefaecd-7ccc-4c9a-9df8-0a7c7f4915c8))
     (pin "2" (uuid a4275e0a-2fc4-4bab-8f5a-4046a5d5a361))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW27") (unit 1)
         )
@@ -1848,31 +1894,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 93.98 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 91.44 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dcc36df-0f7a-4abb-80db-cd49dc0d9d44)
-    (property "Reference" "SW38" (at 93.98 121.031 0)
+    (property "Reference" "SW38" (at 91.44 121.031 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 93.98 123.3424 0)
+    (property "Value" "SW_Push" (at 91.44 123.3424 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 93.98 123.19 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 91.44 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 93.98 123.19 0)
+    (property "Datasheet" "~" (at 91.44 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 93.98 128.27 0)
+    (property "LCSC" "" (at 91.44 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 93.98 128.27 0)
+    (property "exclude_pcba" "true" (at 91.44 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e3e38bba-305f-4a63-86f2-360c890c4c17))
     (pin "2" (uuid 985b8f1a-4ca6-4e32-88e7-de674ea30ce3))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW38") (unit 1)
         )
@@ -1904,7 +1950,7 @@
     (pin "1" (uuid c3cab9b6-7c89-4fa1-b410-e31771ccb7d4))
     (pin "2" (uuid 1663f31f-65c2-4466-b5b0-139ea01fef13))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW10") (unit 1)
         )
@@ -1938,7 +1984,7 @@
     (pin "1" (uuid fde4c083-3f6b-4939-8a2f-e50e8a81fc7f))
     (pin "2" (uuid 2b6cc3f1-1042-49cd-b6f0-b110ff3a20a9))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D26") (unit 1)
         )
@@ -1975,7 +2021,7 @@
     (pin "1" (uuid 225b26cc-5ae7-47a5-8655-66391902737d))
     (pin "2" (uuid 14a8dccf-e817-46d7-86cd-4e3cd3821670))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW13") (unit 1)
         )
@@ -2012,7 +2058,7 @@
     (pin "1" (uuid 6a2d4da9-0b52-49db-bdec-484d13765174))
     (pin "2" (uuid ba5c185c-d1dc-47e5-bb66-15e9bb6c098a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW14") (unit 1)
         )
@@ -2049,7 +2095,7 @@
     (pin "1" (uuid 24fb3b29-e9b9-4b9f-a2ea-fa7474c4c2ef))
     (pin "2" (uuid 097c5437-f54a-4e27-b9fe-68382f94fd6e))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW24") (unit 1)
         )
@@ -2086,7 +2132,7 @@
     (pin "1" (uuid 8c21add7-66e1-47e4-a261-1260718057d2))
     (pin "2" (uuid e6a8e14a-d722-4db1-a0d0-287f2ecda54b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW1") (unit 1)
         )
@@ -2123,7 +2169,7 @@
     (pin "1" (uuid 7c2d6cfb-0f6d-48a3-bd9f-51c13c2f886f))
     (pin "2" (uuid fe0031ed-f17d-4569-bffd-541451a285d0))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW2") (unit 1)
         )
@@ -2160,7 +2206,7 @@
     (pin "1" (uuid 38f81513-2b57-4826-8abe-1217580362f8))
     (pin "2" (uuid 73cf2576-4489-4a38-ac88-c51c9884146a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW29") (unit 1)
         )
@@ -2173,28 +2219,28 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 102.938 124.2946 90) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 99.06 113.03 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49810273-39af-49ac-abe0-c9cf0d610780)
-    (property "Reference" "D36" (at 108.7621 122.1033 90)
+    (property "Reference" "D36" (at 102.87 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4148W" (at 113.0777 124.3179 90)
+    (property "Value" "1N4148W" (at 107.1856 106.3546 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 107.383 124.2946 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 103.505 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 102.938 124.2946 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JlcRotOffset" "14" (at 102.938 124.2946 0)
+    (property "JlcRotOffset" "14" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a3d78c28-259b-4d8d-834c-09a7387ef547))
     (pin "2" (uuid 20f3c2cd-c627-4214-8c7f-2b9d67f229f5))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D36") (unit 1)
         )
@@ -2223,7 +2269,7 @@
     (pin "1" (uuid c665087c-1dbc-42a0-a82f-ab25fa0bdb5d))
     (pin "2" (uuid f1207184-b1dd-4312-941e-cbba9120d47b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D13") (unit 1)
         )
@@ -2260,7 +2306,7 @@
     (pin "1" (uuid ecb433d2-74d8-4029-b433-efd0c8b745c7))
     (pin "2" (uuid 01c82672-6ea0-4b00-b7ce-add7db900c34))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW16") (unit 1)
         )
@@ -2297,7 +2343,7 @@
     (pin "1" (uuid b23e78cd-87ab-4876-adb0-e06206b1b5a5))
     (pin "2" (uuid 9e3191e2-42a1-4e47-809f-9ef261255d64))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW7") (unit 1)
         )
@@ -2334,7 +2380,7 @@
     (pin "1" (uuid ee623b0a-9c51-43db-847a-aed743c2917f))
     (pin "2" (uuid 79da26ea-424c-4eb3-862f-c21366c1b9b0))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW33") (unit 1)
         )
@@ -2342,35 +2388,6 @@
       (project "LeChiffre"
         (path "/d1959612-acbc-4f43-83d5-42496b0ddebd"
           (reference "SW?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N4148") (at 163.8868 124.2946 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 60425376-16db-4529-b5d6-eb0f3e61bb81)
-    (property "Reference" "D37" (at 169.7109 122.1033 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1N4148W" (at 174.0265 124.3179 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 168.3318 124.2946 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 163.8868 124.2946 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JlcRotOffset" "14" (at 163.8868 124.2946 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8a833a41-fe70-4401-82ac-ef07aea2158a))
-    (pin "2" (uuid 1f2cad04-3ccd-4bcf-b79b-176e78a0f084))
-    (instances
-      (project "stm32_hotswap_chiffre"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "D37") (unit 1)
         )
       )
     )
@@ -2400,7 +2417,7 @@
     (pin "1" (uuid aaea31db-195a-449e-80d1-9913270e90e3))
     (pin "2" (uuid bfcfd661-d377-44d3-971c-9aedacd66ef3))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW5") (unit 1)
         )
@@ -2437,7 +2454,7 @@
     (pin "1" (uuid 761f160a-224e-49e1-be51-17c31403e48d))
     (pin "2" (uuid 915e30e2-ab5c-4402-8344-956efe2f75f8))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW32") (unit 1)
         )
@@ -2474,7 +2491,7 @@
     (pin "1" (uuid ec3f414b-9ed6-44d1-a26e-c5c624d3ec05))
     (pin "2" (uuid 9e5dafa4-fcc2-4414-a480-33a05d942c49))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW39") (unit 1)
         )
@@ -2482,31 +2499,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 182.8688 128.27 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 194.31 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dcc1645-c58a-49d0-b9f7-b07469cc264d)
-    (property "Reference" "SW43" (at 182.8688 121.031 0)
+    (property "Reference" "SW43" (at 194.31 118.491 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 182.8688 123.3424 0)
+    (property "Value" "SW_Push" (at 194.31 120.8024 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1.25U" (at 182.8688 123.19 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1.25U" (at 194.31 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 182.8688 123.19 0)
+    (property "Datasheet" "~" (at 194.31 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 182.8688 128.27 0)
+    (property "LCSC" "" (at 194.31 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 182.8688 128.27 0)
+    (property "exclude_pcba" "true" (at 194.31 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5365df93-2be9-4693-86bb-58cd7a2f5a0b))
     (pin "2" (uuid db8c2d1a-7cce-4b9c-a440-d20b5fdb31a0))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW43") (unit 1)
         )
@@ -2514,28 +2531,28 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 116.84 113.03 270) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 113.03 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6de74888-328e-4346-a9cb-5081942394e0)
-    (property "Reference" "D32" (at 118.8466 111.8616 90)
+    (property "Reference" "D32" (at 115.0366 111.8616 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4148W" (at 118.8466 114.173 90)
+    (property "Value" "1N4148W" (at 115.0366 114.173 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 112.395 113.03 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 108.585 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 116.84 113.03 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 113.03 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JlcRotOffset" "14" (at 116.84 113.03 0)
+    (property "JlcRotOffset" "14" (at 113.03 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a989111f-dce0-4108-8658-8c3b2c5e25ad))
     (pin "2" (uuid 650913bb-ba07-4a9e-809f-60d381029804))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D32") (unit 1)
         )
@@ -2579,7 +2596,7 @@
           (reference "C19") (unit 1)
         )
       )
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "C10") (unit 1)
         )
@@ -2608,7 +2625,7 @@
     (pin "1" (uuid 33d54778-1ec7-420d-8574-1fc4aaf4d8f1))
     (pin "2" (uuid 28e6267c-e7e1-48c4-af37-dadf2e578583))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D7") (unit 1)
         )
@@ -2616,6 +2633,35 @@
       (project "LeChiffre"
         (path "/d1959612-acbc-4f43-83d5-42496b0ddebd"
           (reference "D?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:1N4148") (at 185.42 113.03 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 751c4891-6956-4ee9-94b1-b42bbb97e56d)
+    (property "Reference" "D34" (at 181.61 105.41 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1N4148W" (at 179.07 107.95 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 180.975 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 185.42 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JlcRotOffset" "-14" (at 185.42 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6fca5f0-231a-443c-9d66-1048d2b834dd))
+    (pin "2" (uuid 7b7beb08-a94b-415f-8889-3059d1e1229f))
+    (instances
+      (project "stm32_chiffre_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
+          (reference "D34") (unit 1)
         )
       )
     )
@@ -2642,7 +2688,7 @@
     (pin "1" (uuid 8419f0af-f922-4144-8db1-27604b68624a))
     (pin "2" (uuid 85e2590f-1618-42ae-84b9-34c2cb70e31b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D24") (unit 1)
         )
@@ -2679,7 +2725,7 @@
     (pin "1" (uuid 5236ecb5-2d53-4b59-a843-9eecfd794153))
     (pin "2" (uuid 025afa17-3229-4981-b19f-63c47e1cd617))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW6") (unit 1)
         )
@@ -2713,7 +2759,7 @@
     (pin "1" (uuid c8178d5d-88e2-4ccf-8921-3be7d4106f09))
     (pin "2" (uuid 389e4281-3024-45e9-8b0c-7d5b790d6f92))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D22") (unit 1)
         )
@@ -2750,7 +2796,7 @@
     (pin "1" (uuid 8b955e68-2e90-4fec-9a26-862420f43656))
     (pin "2" (uuid 5de67d65-18ff-438e-83f8-7b0b282a1397))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW11") (unit 1)
         )
@@ -2784,7 +2830,7 @@
     (pin "1" (uuid 5e8d7988-eac5-475f-9c05-232b87cc18f0))
     (pin "2" (uuid 9d9a0f23-23e1-4394-b683-50bdc9484b9c))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D17") (unit 1)
         )
@@ -2818,7 +2864,7 @@
     (pin "1" (uuid b62c05d7-9386-493a-8265-b242bb44afb0))
     (pin "2" (uuid 26733290-f002-4322-979f-adc559933c73))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D6") (unit 1)
         )
@@ -2852,7 +2898,7 @@
     (pin "1" (uuid 93f2ba0f-3e7d-4c9f-bc92-740ad9a26ea9))
     (pin "2" (uuid 0fce975b-473e-4e35-ba87-a067916ba1f8))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D3") (unit 1)
         )
@@ -2865,28 +2911,28 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 88.9 113.03 270) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 81.28 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eee519d-5b63-4697-a1ed-d87d07fd3f82)
-    (property "Reference" "D31" (at 90.9066 111.8616 90)
+    (property "Reference" "D31" (at 76.2 104.3686 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4148W" (at 90.9066 114.173 90)
+    (property "Value" "1N4148W" (at 76.2 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 84.455 113.03 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 76.835 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 88.9 113.03 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 81.28 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JlcRotOffset" "14" (at 88.9 113.03 0)
+    (property "JlcRotOffset" "14" (at 81.28 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 012965ab-23c0-4395-a08e-949f0188b079))
     (pin "2" (uuid a458a8b0-c415-4aa3-9d6d-57089458d37f))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D31") (unit 1)
         )
@@ -2923,7 +2969,7 @@
     (pin "1" (uuid c0aff785-c914-4121-a804-7ed07b748e67))
     (pin "2" (uuid 9495abe7-ea01-47d9-871d-4740b4e9940b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW4") (unit 1)
         )
@@ -2957,7 +3003,7 @@
     (pin "1" (uuid d281d4b3-1fa1-459f-8200-440b2a313a95))
     (pin "2" (uuid 6dc4e131-67ee-43e9-89bb-9fa473e22f44))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D30") (unit 1)
         )
@@ -2994,7 +3040,7 @@
     (pin "1" (uuid 99b7db82-1430-4198-b4be-3a3cbcb6669f))
     (pin "2" (uuid 276d9ea9-7282-4ac5-86f1-f1796ab3cea1))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW12") (unit 1)
         )
@@ -3024,7 +3070,7 @@
     )
     (pin "1" (uuid 431fe732-558d-4bbb-ab6a-8a9392a65ad8))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "#PWR02") (unit 1)
         )
@@ -3061,7 +3107,7 @@
     (pin "1" (uuid eff88090-c391-47e4-8a34-f4ddcac6d3a0))
     (pin "2" (uuid 1914539f-1ecd-4e79-87fe-c2103c0c62e7))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW9") (unit 1)
         )
@@ -3098,7 +3144,7 @@
     (pin "S1" (uuid f6f8a773-18dd-49cf-9ce3-4b1753c56231))
     (pin "S2" (uuid 0abd921e-cfd1-4c24-8637-4b56344a7f89))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW36") (unit 1)
         )
@@ -3132,7 +3178,7 @@
     (pin "1" (uuid c6d54a42-4e1d-4e18-8de0-c44ec0ee05ea))
     (pin "2" (uuid 54ad12b8-7c3d-4a1d-8bda-b68c12d5bbd9))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D16") (unit 1)
         )
@@ -3166,7 +3212,7 @@
     (pin "1" (uuid cb0fff3b-ed72-4753-aad6-ca38a4d9d2e5))
     (pin "2" (uuid 2c94fbdc-c458-47f4-b026-8b31ce2ebf8c))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D2") (unit 1)
         )
@@ -3200,7 +3246,7 @@
     (pin "1" (uuid ddc7fca5-6a8e-487e-be02-65bf1f0e1f8e))
     (pin "2" (uuid 656d7fb3-cc09-41be-9ead-5ee13d1d0265))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D10") (unit 1)
         )
@@ -3234,7 +3280,7 @@
     (pin "1" (uuid 6b285f52-7f4b-43f2-acf3-ca4062f8c4e0))
     (pin "2" (uuid 8d11e2b9-f3f0-42a9-a522-bf98ba1c7abf))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D15") (unit 1)
         )
@@ -3268,7 +3314,7 @@
     (pin "1" (uuid b119d1d9-7675-4e7e-808b-05326cf29c82))
     (pin "2" (uuid 26d38491-a9d5-4e3a-b0d3-c2ad49cd0656))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D18") (unit 1)
         )
@@ -3305,7 +3351,7 @@
     (pin "1" (uuid e8e0d77a-7fe5-4ac8-9289-f8431e0a8246))
     (pin "2" (uuid 49b2687b-9b67-419a-8144-c33e6e86adce))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW26") (unit 1)
         )
@@ -3342,7 +3388,7 @@
     (pin "1" (uuid a2c0d063-a009-4c38-9675-31861e4d6a83))
     (pin "2" (uuid 59c89965-5ba0-4635-899b-491eb92585ed))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW28") (unit 1)
         )
@@ -3379,7 +3425,7 @@
     (pin "1" (uuid 9ba01dde-34e7-478b-946f-128a8504e55d))
     (pin "2" (uuid 30488584-1184-498e-a62f-9c9637255847))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW20") (unit 1)
         )
@@ -3416,7 +3462,7 @@
     (pin "1" (uuid 4e13b92c-d2e4-4fdf-ae68-364076af5f49))
     (pin "2" (uuid 468a2119-2c9a-4b6b-ab13-dcbac3c6106f))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW8") (unit 1)
         )
@@ -3450,7 +3496,7 @@
     (pin "1" (uuid dc7bde99-aef4-4928-866e-1c35919244d0))
     (pin "2" (uuid 62cd0089-101a-48c5-a91c-04182c5d8b08))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D8") (unit 1)
         )
@@ -3484,7 +3530,7 @@
     (pin "1" (uuid b10571ca-a158-49a0-abd3-28159cb164d1))
     (pin "2" (uuid d769de41-0b3b-49a3-93ef-5093cb5abff7))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D21") (unit 1)
         )
@@ -3521,7 +3567,7 @@
     (pin "1" (uuid d5d21d46-2de2-4701-8065-a68ccae9c6ff))
     (pin "2" (uuid 927ee193-f55b-4d25-913b-cc6f6148d59c))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW25") (unit 1)
         )
@@ -3534,31 +3580,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 154.9288 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 154.94 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c41f971e-021d-47a4-9221-b6c31ed3b274)
-    (property "Reference" "SW41" (at 154.9288 121.031 0)
+    (property "Reference" "SW41" (at 154.94 118.491 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 154.9288 123.3424 0)
+    (property "Value" "SW_Push" (at 154.94 120.8024 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 154.9288 123.19 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 154.94 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.9288 123.19 0)
+    (property "Datasheet" "~" (at 154.94 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 154.9288 128.27 0)
+    (property "LCSC" "" (at 154.94 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 154.9288 128.27 0)
+    (property "exclude_pcba" "true" (at 154.94 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 163bf274-fc32-4f8e-a9d0-c7947dee58a7))
     (pin "2" (uuid 3149909b-18b9-44bc-9971-fa7eb3e2e024))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW41") (unit 1)
         )
@@ -3587,7 +3633,7 @@
     (pin "1" (uuid 7a22c8cb-f37e-46fb-bc98-912f43b063d6))
     (pin "2" (uuid e1395a9e-597a-4b7e-b1d1-d508ee21fdc2))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D1") (unit 1)
         )
@@ -3621,7 +3667,7 @@
     (pin "1" (uuid 34c08aa0-d74c-496c-a997-11bac31f689f))
     (pin "2" (uuid 177b3de6-3488-4589-8a36-9d0b0a6567c0))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D27") (unit 1)
         )
@@ -3655,7 +3701,7 @@
     (pin "1" (uuid 30a65b78-2ffe-472f-8c82-9bc748502451))
     (pin "2" (uuid f0113de8-0018-45e2-af56-4317c7eea1d5))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D25") (unit 1)
         )
@@ -3689,7 +3735,7 @@
     (pin "1" (uuid 31ee03cd-6cd9-4739-b521-d515dcbb3309))
     (pin "2" (uuid e0815916-8b55-47d6-bf44-f253bf9be577))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D9") (unit 1)
         )
@@ -3726,7 +3772,7 @@
     (pin "1" (uuid 556db01d-004a-4bbd-a563-7a8cbffae405))
     (pin "2" (uuid 1706990b-016f-452a-9314-09331c1fc8d1))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW23") (unit 1)
         )
@@ -3760,7 +3806,7 @@
     (pin "1" (uuid ffd57f6c-9aa4-43fd-b6ed-21a8a2bfbe92))
     (pin "2" (uuid 666d973f-f172-4627-a012-65f4ebc3b130))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D19") (unit 1)
         )
@@ -3797,7 +3843,7 @@
     (pin "1" (uuid c8fff936-a89c-478b-a59d-d58bcfca280c))
     (pin "2" (uuid 7700c761-7f44-45cc-aaeb-9c0aed6d0799))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW21") (unit 1)
         )
@@ -3810,31 +3856,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 93.98 109.22 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 91.44 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee0b13f9-e59d-4b5b-9d3e-4d979304fc0c)
-    (property "Reference" "SW31" (at 93.98 101.981 0)
+    (property "Reference" "SW31" (at 91.44 101.981 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 93.98 104.2924 0)
+    (property "Value" "SW_Push" (at 91.44 104.2924 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1.25U" (at 93.98 104.14 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1.25U" (at 91.44 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 93.98 104.14 0)
+    (property "Datasheet" "~" (at 91.44 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 93.98 109.22 0)
+    (property "LCSC" "" (at 91.44 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 93.98 109.22 0)
+    (property "exclude_pcba" "true" (at 91.44 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f0ba2fb0-2d42-4703-add4-f31bc092401e))
     (pin "2" (uuid a556d2ea-20f4-4000-9220-d2e8debd0284))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW31") (unit 1)
         )
@@ -3871,7 +3917,7 @@
     (pin "1" (uuid fb689f7b-07e3-45c5-818d-038e1cd5f739))
     (pin "2" (uuid fec5a452-bda2-42b9-b9e2-9bb9d4bfe71d))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW3") (unit 1)
         )
@@ -3905,7 +3951,7 @@
     (pin "1" (uuid de530a87-7f0a-4048-b7ff-7cb59f6a9398))
     (pin "2" (uuid ff3f72c0-ec0b-4eed-8436-917e7414a74e))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D4") (unit 1)
         )
@@ -3942,7 +3988,7 @@
     (pin "1" (uuid 7f812f96-76b2-4cc6-ac7c-7470c4240fe4))
     (pin "2" (uuid 82338663-b77a-461b-99d0-2c54f36dd54a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW17") (unit 1)
         )
@@ -3955,31 +4001,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 108.018 120.4846 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 106.68 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5b2f84a-31ba-45b9-b691-bafbc81fba1d)
-    (property "Reference" "SW42" (at 108.018 113.2456 0)
+    (property "Reference" "SW42" (at 106.68 121.031 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 108.018 115.557 0)
+    (property "Value" "SW_Push" (at 106.68 123.3424 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 108.018 115.4046 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 106.68 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 108.018 115.4046 0)
+    (property "Datasheet" "~" (at 106.68 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 108.018 120.4846 0)
+    (property "LCSC" "" (at 106.68 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 108.018 120.4846 0)
+    (property "exclude_pcba" "true" (at 106.68 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5ab960d9-7d32-4a71-8abf-2a6c15de3831))
     (pin "2" (uuid 67a5b445-12ee-427e-8514-6f0123240712))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW42") (unit 1)
         )
@@ -3987,31 +4033,31 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 168.9668 120.4846 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 173.99 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6a5e720-e8f3-4f8a-b879-ef02ee71447a)
-    (property "Reference" "SW40" (at 168.9668 113.2456 0)
+    (property "Reference" "SW40" (at 174.8501 118.5818 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 168.9668 115.557 0)
+    (property "Value" "SW_Push" (at 174.8501 120.8932 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 168.9668 115.4046 0)
+    (property "Footprint" "MX_hotswap_alps:MX-Hotswap-Alps-1U" (at 173.99 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 168.9668 115.4046 0)
+    (property "Datasheet" "~" (at 173.99 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 168.9668 120.4846 0)
+    (property "LCSC" "" (at 173.99 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "exclude_pcba" "true" (at 168.9668 120.4846 0)
+    (property "exclude_pcba" "true" (at 173.99 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b6136864-6223-4408-9321-ec000ffbdc74))
     (pin "2" (uuid 3a2178c4-3c19-4a4f-9ade-ae1c7bab2c85))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW40") (unit 1)
         )
@@ -4040,7 +4086,7 @@
     (pin "1" (uuid f00a1bb5-fd66-4436-bcf4-19a1dfb07685))
     (pin "2" (uuid 6fec882d-362a-4c28-92d2-b2b767ce19bf))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D11") (unit 1)
         )
@@ -4077,7 +4123,7 @@
     (pin "1" (uuid 6fb08b0c-e0a9-4137-8658-92006d5ecb69))
     (pin "2" (uuid f01bb93f-7a49-498a-a545-ab81c1358cff))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "SW30") (unit 1)
         )
@@ -4111,7 +4157,7 @@
     (pin "1" (uuid 11bbd34e-d360-4edc-92ca-492063659bb8))
     (pin "2" (uuid 8ac30a2f-23a7-45aa-a069-a50028df7fa7))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
           (reference "D29") (unit 1)
         )
