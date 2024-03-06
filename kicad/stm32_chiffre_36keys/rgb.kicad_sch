@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Hotswap Chiffre")
-    (date "2023-07-13")
-    (rev "0.2.2")
+    (title "Hotswap Chiffre (36 key)")
+    (date "2024-03-06")
+    (rev "0.3")
     (company "sporkus")
   )
 
@@ -574,7 +574,7 @@
     )
     (pin "1" (uuid f25830a5-6b20-4c27-8d57-ccffd75a120b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0101") (unit 1)
         )
@@ -605,7 +605,7 @@
     (pin "3" (uuid 8b51acef-7a3e-414a-b54c-89a32300d40b))
     (pin "4" (uuid 3114dc92-22ea-4fb4-abab-0fc65c20d7d1))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D104") (unit 1)
         )
@@ -633,7 +633,7 @@
     (pin "3" (uuid 52e77128-826a-4c1c-98ab-3dd6c9e6d7cc))
     (pin "4" (uuid 9f3b4d02-efaa-4fe5-8460-8f1906292b1c))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D102") (unit 1)
         )
@@ -664,7 +664,7 @@
     (pin "3" (uuid cac5c734-fd33-4838-8408-90c887d91b42))
     (pin "4" (uuid 59123980-a640-403d-8280-9db16b2c578d))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D103") (unit 1)
         )
@@ -694,7 +694,7 @@
     (pin "2" (uuid acd57488-f582-4a4e-b592-6195851e5026))
     (pin "3" (uuid 73a3ea0b-888a-44b6-b35d-0108a9771e9c))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "J101") (unit 1)
         )
@@ -730,7 +730,7 @@
     (pin "3" (uuid fe4acb52-71e2-49da-bb12-d3a862bcea28))
     (pin "4" (uuid c327d6b3-cf7f-4de5-8022-4438119f032a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D108") (unit 1)
         )
@@ -761,7 +761,7 @@
     (pin "3" (uuid df230692-537c-4ea0-9bdd-145cdc40f18c))
     (pin "4" (uuid 81892315-199e-46cf-9218-a4c558c2d66b))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D106") (unit 1)
         )
@@ -792,7 +792,7 @@
     (pin "3" (uuid 9d74a88c-7cae-43d3-b5d5-842cf120782c))
     (pin "4" (uuid 55b6f784-2c8b-4a2e-9f8b-d4048583a424))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D105") (unit 1)
         )
@@ -817,7 +817,7 @@
     )
     (pin "1" (uuid 6ce1d371-2e18-4bdf-bd5b-2f6fc58519ba))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0106") (unit 1)
         )
@@ -847,7 +847,7 @@
     )
     (pin "1" (uuid 4c152d05-aa89-4767-a47e-0dbb902c701e))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR019") (unit 1)
         )
@@ -878,7 +878,7 @@
     (pin "3" (uuid 25991edc-7d63-4957-9d63-ba9b2d5b9c71))
     (pin "4" (uuid 43456895-a535-4380-8807-cf829fc8e28e))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D107") (unit 1)
         )
@@ -909,7 +909,7 @@
     (pin "3" (uuid 411736e3-0446-4098-bbb8-baa0a3528ba6))
     (pin "4" (uuid a5f670b0-9421-44c9-8542-d5e8c6307c14))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D110") (unit 1)
         )
@@ -938,7 +938,7 @@
     (pin "1" (uuid 74622bee-4095-4045-a972-a264cf175417))
     (pin "2" (uuid c85049e0-8d5a-4575-878c-d40411353876))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "JP2") (unit 1)
         )
@@ -966,7 +966,7 @@
     (pin "3" (uuid e6b81a31-e412-4c05-93e6-0d81a188dd79))
     (pin "4" (uuid 4b59ebdc-ba14-447f-9124-14fb6655bd97))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D101") (unit 1)
         )
@@ -997,7 +997,7 @@
     (pin "3" (uuid 87d7310e-ce6b-43d3-9b6e-c97c79d3cb09))
     (pin "4" (uuid 69ebc499-1b68-49c5-822d-8843d5eeef3a))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D109") (unit 1)
         )
@@ -1028,7 +1028,7 @@
     (pin "3" (uuid 27e52df7-a570-41aa-9ccc-06f4dac9ca3e))
     (pin "4" (uuid 797dc3cb-48a7-4391-b7f0-3b7f3c991dc4))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "D111") (unit 1)
         )
@@ -1053,7 +1053,7 @@
     )
     (pin "1" (uuid 0bbc6ae6-28a4-430e-af6b-d248dbcb5ce3))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0105") (unit 1)
         )
@@ -1083,7 +1083,7 @@
     )
     (pin "1" (uuid 409bb60f-7567-4eb2-9690-508da68e1aef))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0104") (unit 1)
         )
@@ -1108,7 +1108,7 @@
     )
     (pin "1" (uuid 63b8ac22-b112-4b66-b3a1-0a16bf32e6e8))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR0102") (unit 1)
         )
@@ -1138,7 +1138,7 @@
     )
     (pin "1" (uuid aa871bee-078e-4985-809d-2310aaee7e37))
     (instances
-      (project "stm32_hotswap_chiffre"
+      (project "stm32_chiffre_36keys"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ec6e930e-09f1-49e7-aa49-9ca6fe61b6ec"
           (reference "#PWR020") (unit 1)
         )

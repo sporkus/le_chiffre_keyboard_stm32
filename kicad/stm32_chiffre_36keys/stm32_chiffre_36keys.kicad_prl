@@ -2,15 +2,15 @@
   "board": {
     "active_layer": 31,
     "active_layer_preset": "All Copper Layers",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 2,
-    "net_color_mode": 2,
+    "high_contrast_mode": 0,
+    "net_color_mode": 1,
     "opacity": {
-      "images": 0.33000001311302185,
-      "pads": 0.6299999952316284,
-      "tracks": 0.7400000095367432,
+      "images": 1.0,
+      "pads": 1.0,
+      "tracks": 1.0,
       "vias": 1.0,
       "zones": 1.0
     },
@@ -65,7 +65,7 @@
       40
     ],
     "visible_layers": "0001000_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "stm32_chiffre_36keys.kicad_prl",
