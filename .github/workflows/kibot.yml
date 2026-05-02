@@ -28,9 +28,19 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k7
       with:
         config: kicad/pcb/config.kibot.yaml
-        dir: 'documentation'
+        dir: 'documentation/36key'
         schema: 'kicad/pcb/stm32_hotswap_chiffre.kicad_sch'
         board: 'kicad/pcb/stm32_hotswap_chiffre.kicad_pcb'
+        verbose: 0
+      continue-on-error: true
+
+    - name: generate PCB documentation
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: kicad/pcb_36key/config.kibot.yaml
+        dir: 'documentation/34key'
+        schema: 'kicad/pcb_36key/stm32_hotswap_chiffre.kicad_sch'
+        board: 'kicad/pcb_36key/stm32_hotswap_chiffre.kicad_pcb'
         verbose: 0
       continue-on-error: true
 
