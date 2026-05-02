@@ -9,7 +9,7 @@ Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 * MX hotswap, Alps support
 
 ## Firmware
-* [QMK config](https://github.com/sporkus/qmk_userspace/tree/main/keyboards/sporkus/le_chiffre_32)
+* [QMK and vial source](./firmware)
 * [zmk config](https://github.com/petejohanson/le-chiffre-stm32-zmk-config)
 * [pre-compiled vial](./firmware/le_chiffre_32_vial.bin)
 
