@@ -7,6 +7,7 @@ Open sourced PCB originally design by tominabox1 updated to STM32 MCU.
 * Drop-in replacement to existing cases
 * MCU: STM32F072CBT6 (128Kb flash, built-in DFU bootloader) to allow more firmware features
 * MX hotswap, Alps support
+* Optional 36 key support
 
 ## Firmware
 * [QMK config](https://github.com/sporkus/qmk_userspace/tree/main/keyboards/sporkus/le_chiffre_32)
@@ -44,6 +45,7 @@ To flash initially using dfu-util or qmk toolbox, plug in the board or push the 
 tominabox1 for the [original design](https://github.com/tominabox1/Le-Chiffre-Keyboard)
 
 ## Changelog
+* v0.3.0: add optional 36 key support
 * v0.2.2: change center switch to soldered instead of hotswap. Group buy.
 * v0.2.1: added front led bypass jumper
 * v0.2.0: improved protection circuit
